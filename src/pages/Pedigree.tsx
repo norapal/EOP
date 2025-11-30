@@ -24,7 +24,7 @@ export default function Pedigree() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <ImageUpload
             label="Upload or create pedigree chart"
-            aspectRatio="aspect-[4/3]"
+            aspectRatio="aspect-auto"
           />
           <div className="bg-white rounded-soft p-6">
             <h3 className="font-semibold text-navy-blue mb-4">Pedigree Information:</h3>

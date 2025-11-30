@@ -52,6 +52,11 @@ export default function ImageUpload({
     }
   }
 
+  // Use object-contain for aspect-auto to preserve full image, object-cover for fixed ratios
+  const objectFitClass = aspectRatio === 'aspect-auto' ? 'object-contain' : 'object-cover'
+  // Add max-height for aspect-auto to prevent vertical images from becoming too large
+  const imageClass = aspectRatio === 'aspect-auto' ? 'max-h-[600px]' : aspectRatio
+
   return (
     <div className={cn("w-full", className)}>
       {label && (
@@ -68,11 +73,11 @@ export default function ImageUpload({
         onDragOver={(e) => e.preventDefault()}
       >
         {preview ? (
-          <div className="relative">
+          <div className="relative flex justify-center items-center bg-gray-50 rounded-soft">
             <img
               src={preview}
               alt="Preview"
-              className={cn("w-full rounded-soft object-cover", aspectRatio)}
+              className={cn("w-full rounded-soft", objectFitClass, imageClass)}
             />
             <button
               onClick={handleRemove}

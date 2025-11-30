@@ -45,7 +45,7 @@ export default function HealthWellness() {
         <div className="mt-4">
           <ImageUpload
             label="Upload completed physical exam worksheet"
-            aspectRatio="aspect-[4/3]"
+            aspectRatio="aspect-auto"
           />
         </div>
       </div>
@@ -158,7 +158,7 @@ export default function HealthWellness() {
               src="/images/billy-side-1.jpg"
               alt="Image: Side profile view of Billy for body condition score assessment"
               title="Image: Side view for BCS assessment showing body condition"
-              aspectRatio="aspect-[4/3]"
+              aspectRatio="aspect-auto"
             />
           </div>
           <div>
@@ -183,7 +183,7 @@ export default function HealthWellness() {
         <div className="mt-4">
           <ImageUpload
             label="Upload completed Henneke BCS chart"
-            aspectRatio="aspect-[4/3]"
+            aspectRatio="aspect-auto"
           />
         </div>
       </div>

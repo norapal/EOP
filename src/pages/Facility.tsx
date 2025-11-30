@@ -9,7 +9,7 @@ export default function Facility() {
           Facility: Oppenheimer Family Equine Center
         </h1>
         <p className="text-lg text-gray-700 leading-relaxed">
-          The layout and design of the horse's facility is crucial for its health, safety, and well-being. Planning the layout, features, and potential areas to improve the facility promotes good management practices.
+          The layout and design of a horse's facility is crucial for its health, safety, and well-being. Planning the layout, features, and potential areas to improve the facility promotes good management practices.
         </p>
       </div>
 
@@ -23,7 +23,7 @@ export default function Facility() {
               Billy currently resides at the Oppenheimer Family Equine Center on Cal Poly's campus. 
             </p>
             <p className="text-gray-700 leading-relaxed">
-              [Add detailed description of the facility, including stall dimensions, turnout areas, arena facilities, etc.]
+              The Oppenheimer Family Equine Center features stables, riding arenas, and pastures to [Add detailed description of the facility, including stall dimensions, turnout areas, arena facilities, etc.]
             </p>
           </div>
 
@@ -42,15 +42,15 @@ export default function Facility() {
         <div className="space-y-6">
           <ImageUpload
             label="Aerial Facility Layout"
-            aspectRatio="aspect-square"
+            aspectRatio="aspect-auto"
           />
           <ImageUpload
             label="Facility Photo 1"
-            aspectRatio="aspect-[4/3]"
+            aspectRatio="aspect-auto"
           />
           <ImageUpload
             label="Facility Photo 2"
-            aspectRatio="aspect-[4/3]"
+            aspectRatio="aspect-auto"
           />
         </div>
       </div>
@@ -59,10 +59,15 @@ export default function Facility() {
         <h2 className="text-2xl font-serif text-forest-green mb-4">
           Location Map
         </h2>
-        <div className="aspect-video bg-gray-100 rounded-soft flex items-center justify-center">
-          <p className="text-gray-500">
-            [Embed Google Maps or other map service here]
-          </p>
+        <div className="aspect-video bg-gray-100 rounded-soft overflow-hidden">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.9904071331775!2d-120.66669602410022!3d35.309325050314186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ecf12ee0390977%3A0x6a5e47700b3aff8d!2sOppenheimer%20Family%20Equine%20Center!5e1!3m2!1sen!2sus!4v1764489774658!5m2!1sen!2sus" 
+            className="w-full h-full"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy" 
+            referrerPolicy="no-referrer-when-downgrade"
+          />
         </div>
       </div>
     </Section>
