@@ -92,6 +92,51 @@ export default function Conformation() {
           </div>
         </div>
 
+        {/* Conformational Documentation with Annotations */}
+        <div className="mb-12">
+          <h2 className="text-2xl font-serif text-forest-green mb-6">
+            Conformational Documentation with Annotations
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div>
+              <HorseImage
+                src="/images/billy-front-documentation.jpg"
+                alt="Image 4: Annotated front view of Billy showing conformational measurements and angles"
+                title="Image 4: Front view with conformational annotations"
+                aspectRatio="aspect-auto"
+                onClick={() => setLightboxImage('/images/billy-front-documentation.jpg')}
+              />
+              <p className="text-sm text-gray-600 mt-2 text-center">
+                Image 4: Front view with conformational annotations and measurements
+              </p>
+            </div>
+            <div>
+              <HorseImage
+                src="/images/billy-side-documentation.jpg"
+                alt="Image 5: Annotated lateral view of Billy showing conformational measurements and angles"
+                title="Image 5: Lateral view with conformational annotations"
+                aspectRatio="aspect-auto"
+                onClick={() => setLightboxImage('/images/billy-side-documentation.jpg')}
+              />
+              <p className="text-sm text-gray-600 mt-2 text-center">
+                Image 5: Lateral view with conformational annotations and measurements
+              </p>
+            </div>
+            <div>
+              <HorseImage
+                src="/images/billy-rear-documentation.jpg"
+                alt="Image 6: Annotated rear view of Billy showing conformational measurements and angles"
+                title="Image 6: Rear view with conformational annotations"
+                aspectRatio="aspect-auto"
+                onClick={() => setLightboxImage('/images/billy-rear-documentation.jpg')}
+              />
+              <p className="text-sm text-gray-600 mt-2 text-center">
+                Image 6: Rear view with conformational annotations and measurements
+              </p>
+            </div>
+          </div>
+        </div>
+
         {/* Form to Function */}
         <div className="bg-white rounded-softer p-6 border border-gray-200 mb-12">
           <h2 className="text-2xl font-serif text-forest-green mb-4">
@@ -122,25 +167,25 @@ export default function Conformation() {
             <div>
               <HorseImage
                 src="/images/billy-hindquarters.jpg"
-                alt="Image 4: Close-up view of Billy's hindquarters and back showing topline and muscling"
-                title="Image 4: Hindquarters and back view for topline assessment"
+                alt="Image 7: Close-up view of Billy's hindquarters and back showing topline and muscling"
+                title="Image 7: Hindquarters and back view for topline assessment"
                 aspectRatio="aspect-auto"
                 onClick={() => setLightboxImage('/images/billy-hindquarters.jpg')}
               />
               <p className="text-sm text-gray-600 mt-2 text-center">
-                Image 4: Hindquarters and back view showing topline, croup, and muscling
+                Image 7: Hindquarters and back view showing topline, croup, and muscling
               </p>
             </div>
             <div>
               <HorseImage
                 src="/images/billy-side-2.jpg"
-                alt="Image 5: Additional side profile view of Billy"
-                title="Image 5: Additional lateral view"
+                alt="Image 8: Additional side profile view of Billy"
+                title="Image 8: Additional lateral view"
                 aspectRatio="aspect-auto"
                 onClick={() => setLightboxImage('/images/billy-side-2.jpg')}
               />
               <p className="text-sm text-gray-600 mt-2 text-center">
-                Image 5: Additional lateral view for conformation analysis
+                Image 8: Additional lateral view for conformation analysis
               </p>
             </div>
           </div>

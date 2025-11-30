@@ -15,46 +15,23 @@ export default function Performance() {
         </p>
       </div>
 
-      {/* Video Embed Section */}
-      <div className="mb-12">
-        <h2 className="text-2xl font-serif text-forest-green mb-4">
-          Movement Video Documentation
-        </h2>
-        <div className="bg-cream rounded-softer p-6 mb-6">
-          <label className="block text-sm font-medium text-navy-blue mb-2">
-            Video URL (YouTube or Vimeo)
-          </label>
-          <input
-            type="text"
-            value={videoUrl}
-            onChange={(e) => setVideoUrl(e.target.value)}
-            placeholder="https://youtube.com/watch?v=..."
-            className="w-full px-4 py-2 border border-gray-300 rounded-soft focus:outline-none focus:ring-2 focus:ring-forest-green"
-          />
-        </div>
-        {videoUrl && (
-          <div className="aspect-video bg-gray-100 rounded-soft overflow-hidden mb-4">
-            <iframe
-              src={videoUrl.replace('watch?v=', 'embed/').replace('vimeo.com/', 'player.vimeo.com/video/')}
-              className="w-full h-full"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
-          </div>
-        )}
-        {!videoUrl && (
-          <div className="aspect-video bg-gray-100 rounded-soft flex items-center justify-center">
-            <p className="text-gray-500">Video will appear here when URL is entered</p>
-          </div>
-        )}
-      </div>
-
       {/* Gait Analysis */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-12">
         <div className="bg-white rounded-softer p-6 border border-gray-200">
           <h3 className="text-xl font-serif text-forest-green mb-4">
             Walk Analysis
           </h3>
+          <div className="mb-4">
+            <video 
+              controls 
+              className="w-full rounded-soft h-64 object-contain bg-gray-900"
+              preload="metadata"
+            >
+              <source src="/videos/billy-walk.MOV" type="video/quicktime" />
+              <source src="/videos/billy-walk.MOV" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
           <div className="space-y-3 text-gray-700">
             <div>
               <span className="font-semibold text-navy-blue">Rhythm:</span>
@@ -75,6 +52,17 @@ export default function Performance() {
           <h3 className="text-xl font-serif text-forest-green mb-4">
             Trot Analysis
           </h3>
+          <div className="mb-4">
+            <video 
+              controls 
+              className="w-full rounded-soft h-64 object-contain bg-gray-900"
+              preload="metadata"
+            >
+              <source src="/videos/billy-trot.MOV" type="video/quicktime" />
+              <source src="/videos/billy-trot.MOV" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
           <div className="space-y-3 text-gray-700">
             <div>
               <span className="font-semibold text-navy-blue">Rhythm:</span>
@@ -95,6 +83,17 @@ export default function Performance() {
           <h3 className="text-xl font-serif text-forest-green mb-4">
             Canter/Lope Analysis
           </h3>
+          <div className="mb-4">
+            <video 
+              controls 
+              className="w-full rounded-soft h-64 object-contain bg-gray-900"
+              preload="metadata"
+            >
+              <source src="/videos/billy-canter.MOV" type="video/quicktime" />
+              <source src="/videos/billy-canter.MOV" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
           <p className="text-gray-700 mb-3 italic">
             Due to Billy's chronic low grade lameness it was very hard to get him to canter, so his canter is very similar to his trot.
           </p>

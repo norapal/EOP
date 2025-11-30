@@ -1,10 +1,7 @@
-import { useState } from 'react'
 import Section from '@/components/Section'
 import ImageUpload from '@/components/ImageUpload'
 
 export default function Lameness() {
-  const [videoUrl, setVideoUrl] = useState('')
-
   return (
     <Section className="bg-white">
       <div className="mb-8">
@@ -26,38 +23,55 @@ export default function Lameness() {
         </p>
       </div>
 
-      {/* Video Upload/Embed */}
+      {/* Video Documentation */}
       <div className="mb-8">
-        <h2 className="text-2xl font-serif text-forest-green mb-4">
+        <h2 className="text-2xl font-serif text-forest-green mb-6">
           Lameness Video Documentation
         </h2>
-        <div className="bg-white rounded-softer p-6 border border-gray-200 mb-6">
-          <label className="block text-sm font-medium text-navy-blue mb-2">
-            Video URL (YouTube or Vimeo)
-          </label>
-          <input
-            type="text"
-            value={videoUrl}
-            onChange={(e) => setVideoUrl(e.target.value)}
-            placeholder="https://youtube.com/watch?v=..."
-            className="w-full px-4 py-2 border border-gray-300 rounded-soft focus:outline-none focus:ring-2 focus:ring-forest-green"
-          />
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div>
+            <video 
+              controls 
+              className="w-full rounded-soft h-64 object-contain bg-gray-900"
+              preload="metadata"
+            >
+              <source src="/videos/right-frontlimb-lameness-trot.MOV" type="video/quicktime" />
+              <source src="/videos/right-frontlimb-lameness-trot.MOV" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <p className="text-sm text-gray-600 mt-2 text-center">
+              Right forelimb lameness at trot showing head bobbing and shortened stride
+            </p>
+          </div>
+          <div>
+            <video 
+              controls 
+              className="w-full rounded-soft h-64 object-contain bg-gray-900"
+              preload="metadata"
+            >
+              <source src="/videos/right-hindlimb-lameness.mov" type="video/quicktime" />
+              <source src="/videos/right-hindlimb-lameness.mov" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <p className="text-sm text-gray-600 mt-2 text-center">
+              Right hind limb lameness visible during movement
+            </p>
+          </div>
+          <div>
+            <video 
+              controls 
+              className="w-full rounded-soft h-64 object-contain bg-gray-900"
+              preload="metadata"
+            >
+              <source src="/videos/billy-circle.mov" type="video/quicktime" />
+              <source src="/videos/billy-circle.mov" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <p className="text-sm text-gray-600 mt-2 text-center">
+              Circling movement showing lameness more apparent in turns
+            </p>
+          </div>
         </div>
-        {videoUrl && (
-          <div className="aspect-video bg-gray-100 rounded-soft overflow-hidden mb-4">
-            <iframe
-              src={videoUrl.replace('watch?v=', 'embed/').replace('vimeo.com/', 'player.vimeo.com/video/')}
-              className="w-full h-full"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
-          </div>
-        )}
-        {!videoUrl && (
-          <div className="aspect-video bg-gray-100 rounded-soft flex items-center justify-center">
-            <p className="text-gray-500">Video will appear here when URL is entered</p>
-          </div>
-        )}
       </div>
 
       {/* AAEP Lameness Scale */}

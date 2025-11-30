@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import Section from '@/components/Section'
-import ImageUpload from '@/components/ImageUpload'
 import HorseImage from '@/components/HorseImage'
 import Lightbox from '@/components/Lightbox'
 
