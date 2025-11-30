@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-cream text-gray-800 font-sans;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .bg-texture {
+    background-image: 
+      repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 10px,
+        rgba(0, 0, 0, 0.02) 10px,
+        rgba(0, 0, 0, 0.02) 20px
+      );
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  @media print {
+    .no-print {
+      display: none !important;
+    }
+    
+    .print-break {
+      page-break-after: always;
+    }
+    
+    body {
+      background: white;
+      color: black;
+    }
+    
+    .bg-cream, .bg-forest-green, .bg-navy-blue {
+      background: white !important;
+      color: black !important;
+    }
+    
+    a {
+      color: black;
+      text-decoration: underline;
+    }
+    
+    img {
+      max-width: 100%;
+      page-break-inside: avoid;
+    }
+    
+    table {
+      page-break-inside: avoid;
+    }
+  }
+}
+
