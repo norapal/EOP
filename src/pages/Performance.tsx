@@ -1,6 +1,9 @@
+import { useState } from 'react'
 import Section from '@/components/Section'
 
 export default function Performance() {
+  const [videoUrl, setVideoUrl] = useState('')
+
   return (
     <Section className="bg-white">
       <div className="mb-8">
