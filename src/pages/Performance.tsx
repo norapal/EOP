@@ -24,8 +24,8 @@ export default function Performance() {
               className="w-full rounded-soft h-64 object-contain bg-gray-900"
               preload="metadata"
             >
-              <source src="/videos/billy-walk.MOV" type="video/quicktime" />
-              <source src="/videos/billy-walk.MOV" type="video/mp4" />
+              <source src="./videos/billy-walk.MOV" type="video/quicktime" />
+              <source src="./videos/billy-walk.MOV" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
@@ -55,8 +55,8 @@ export default function Performance() {
               className="w-full rounded-soft h-64 object-contain bg-gray-900"
               preload="metadata"
             >
-              <source src="/videos/billy-trot.MOV" type="video/quicktime" />
-              <source src="/videos/billy-trot.MOV" type="video/mp4" />
+              <source src="./videos/billy-trot.MOV" type="video/quicktime" />
+              <source src="./videos/billy-trot.MOV" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
@@ -86,8 +86,8 @@ export default function Performance() {
               className="w-full rounded-soft h-64 object-contain bg-gray-900"
               preload="metadata"
             >
-              <source src="/videos/billy-canter.MOV" type="video/quicktime" />
-              <source src="/videos/billy-canter.MOV" type="video/mp4" />
+              <source src="./videos/billy-canter.MOV" type="video/quicktime" />
+              <source src="./videos/billy-canter.MOV" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>

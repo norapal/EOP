@@ -106,11 +106,11 @@ registered horses.
                 Main Photo of Billy
               </label>
               <HorseImage
-                src="/images/billy-front-1.jpg"
+                src="./images/billy-front-1.jpg"
                 alt="Image 1: Front view of Billy showing chestnut coat, white blaze, and white socks"
                 title="Image 1: Front view showing color and markings"
                 aspectRatio="aspect-auto"
-                onClick={() => setLightboxImage('/images/billy-front-1.jpg')}
+                onClick={() => setLightboxImage('./images/billy-front-1.jpg')}
               />
             </div>
             <div>
@@ -118,11 +118,11 @@ registered horses.
                 Side Profile View
               </label>
               <HorseImage
-                src="/images/billy-side-1.jpg"
+                src="./images/billy-side-1.jpg"
                 alt="Image 2: Side profile view of Billy showing conformation"
                 title="Image 2: Lateral view for conformation assessment"
                 aspectRatio="aspect-auto"
-                onClick={() => setLightboxImage('/images/billy-side-1.jpg')}
+                onClick={() => setLightboxImage('./images/billy-side-1.jpg')}
               />
             </div>
           </div>
@@ -248,25 +248,25 @@ registered horses.
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <HorseImage
-              src="/images/billy-front-1.jpg"
+              src="./images/billy-front-1.jpg"
               alt="Image 1: Front view of Billy showing chestnut coat, white blaze, and white socks"
               title="Image 1: Front view showing color and markings"
               aspectRatio="aspect-auto"
-              onClick={() => setLightboxImage('/images/billy-front-1.jpg')}
+              onClick={() => setLightboxImage('./images/billy-front-1.jpg')}
             />
             <HorseImage
-              src="/images/billy-side-1.jpg"
+              src="./images/billy-side-1.jpg"
               alt="Image 2: Side profile view of Billy showing conformation"
               title="Image 2: Lateral view for conformation assessment"
               aspectRatio="aspect-auto"
-              onClick={() => setLightboxImage('/images/billy-side-1.jpg')}
+              onClick={() => setLightboxImage('./images/billy-side-1.jpg')}
             />
             <HorseImage
-              src="/images/billy-side-2.jpg"
+              src="./images/billy-side-2.jpg"
               alt="Image 3: Additional side profile view of Billy"
               title="Image 3: Additional lateral view"
               aspectRatio="aspect-auto"
-              onClick={() => setLightboxImage('/images/billy-side-2.jpg')}
+              onClick={() => setLightboxImage('./images/billy-side-2.jpg')}
             />
           </div>
         </div>

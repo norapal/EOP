@@ -8,7 +8,7 @@ export default function Home() {
       {/* Hero Section */}
       <div className="relative h-[70vh] min-h-[500px] flex items-center justify-center overflow-hidden">
         <img
-          src="/images/billy-front-1.jpg"
+          src="./images/billy-front-1.jpg"
           alt="Predictable Cash Flo (Billy) - Chestnut Quarter Horse with white blaze"
           className="absolute inset-0 w-full h-full object-cover"
         />

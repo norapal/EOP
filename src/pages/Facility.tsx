@@ -53,11 +53,11 @@ export default function Facility() {
               Aerial Facility Layout
             </h2>
             <HorseImage
-              src="/images/equine-aerial.jpg"
+              src="./images/equine-aerial.jpg"
               alt="Aerial view of Oppenheimer Family Equine Center showing barns, arenas, and pastures"
               title="Aerial facility layout"
               aspectRatio="aspect-auto"
-              onClick={() => setLightboxImage('/images/equine-aerial.jpg')}
+              onClick={() => setLightboxImage('./images/equine-aerial.jpg')}
             />
             <p className="text-sm text-gray-600 mt-2 text-center">
               Aerial view of the Oppenheimer Family Equine Center facility
@@ -74,11 +74,11 @@ export default function Facility() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div>
             <HorseImage
-              src="/images/barn-front.jpg"
+              src="./images/barn-front.jpg"
               alt="Front view of the barn at Oppenheimer Family Equine Center"
               title="Barn exterior"
               aspectRatio="aspect-auto"
-              onClick={() => setLightboxImage('/images/barn-front.jpg')}
+              onClick={() => setLightboxImage('./images/barn-front.jpg')}
             />
             <p className="text-sm text-gray-600 mt-2 text-center">
               Barn exterior showing facility structure
@@ -86,11 +86,11 @@ export default function Facility() {
           </div>
           <div>
             <HorseImage
-              src="/images/stall-front.jpg"
+              src="./images/stall-front.jpg"
               alt="Front view of horse stall"
               title="Stall front"
               aspectRatio="aspect-auto"
-              onClick={() => setLightboxImage('/images/stall-front.jpg')}
+              onClick={() => setLightboxImage('./images/stall-front.jpg')}
             />
             <p className="text-sm text-gray-600 mt-2 text-center">
               Stall front showing design and accessibility
@@ -98,11 +98,11 @@ export default function Facility() {
           </div>
           <div>
             <HorseImage
-              src="/images/stall-inside.jpg"
+              src="./images/stall-inside.jpg"
               alt="Interior view of horse stall"
               title="Stall interior"
               aspectRatio="aspect-auto"
-              onClick={() => setLightboxImage('/images/stall-inside.jpg')}
+              onClick={() => setLightboxImage('./images/stall-inside.jpg')}
             />
             <p className="text-sm text-gray-600 mt-2 text-center">
               Interior stall view showing space and bedding
@@ -119,11 +119,11 @@ export default function Facility() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div>
             <HorseImage
-              src="/images/gross-corner.jpg"
+              src="./images/gross-corner.jpg"
               alt="Stall corner showing wear and requiring cleaning"
               title="Stall corner maintenance needed"
               aspectRatio="aspect-auto"
-              onClick={() => setLightboxImage('/images/gross-corner.jpg')}
+              onClick={() => setLightboxImage('./images/gross-corner.jpg')}
             />
             <p className="text-sm text-gray-600 mt-2 text-center">
               Stall corner requiring cleaning and maintenance
@@ -131,11 +131,11 @@ export default function Facility() {
           </div>
           <div>
             <HorseImage
-              src="/images/feeding-bin.jpg"
+              src="./images/feeding-bin.jpg"
               alt="Feeding bin requiring maintenance and sanitation"
               title="Feeding bin maintenance needed"
               aspectRatio="aspect-auto"
-              onClick={() => setLightboxImage('/images/feeding-bin.jpg')}
+              onClick={() => setLightboxImage('./images/feeding-bin.jpg')}
             />
             <p className="text-sm text-gray-600 mt-2 text-center">
               Feeding bin needing sanitation improvements
@@ -143,11 +143,11 @@ export default function Facility() {
           </div>
           <div>
             <HorseImage
-              src="/images/water-trough.jpg"
+              src="./images/water-trough.jpg"
               alt="Water trough requiring cleaning and upkeep"
               title="Water trough maintenance needed"
               aspectRatio="aspect-auto"
-              onClick={() => setLightboxImage('/images/water-trough.jpg')}
+              onClick={() => setLightboxImage('./images/water-trough.jpg')}
             />
             <p className="text-sm text-gray-600 mt-2 text-center">
               Water trough requiring cleaning and upkeep

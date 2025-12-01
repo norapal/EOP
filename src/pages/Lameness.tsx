@@ -35,8 +35,8 @@ export default function Lameness() {
               className="w-full rounded-soft h-64 object-contain bg-gray-900"
               preload="metadata"
             >
-              <source src="/videos/right-frontlimb-lameness-trot.MOV" type="video/quicktime" />
-              <source src="/videos/right-frontlimb-lameness-trot.MOV" type="video/mp4" />
+              <source src="./videos/right-frontlimb-lameness-trot.MOV" type="video/quicktime" />
+              <source src="./videos/right-frontlimb-lameness-trot.MOV" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             <p className="text-sm text-gray-600 mt-2 text-center">
@@ -49,8 +49,8 @@ export default function Lameness() {
               className="w-full rounded-soft h-64 object-contain bg-gray-900"
               preload="metadata"
             >
-              <source src="/videos/right-hindlimb-lameness.mov" type="video/quicktime" />
-              <source src="/videos/right-hindlimb-lameness.mov" type="video/mp4" />
+              <source src="./videos/right-hindlimb-lameness.mov" type="video/quicktime" />
+              <source src="./videos/right-hindlimb-lameness.mov" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             <p className="text-sm text-gray-600 mt-2 text-center">
@@ -63,8 +63,8 @@ export default function Lameness() {
               className="w-full rounded-soft h-64 object-contain bg-gray-900"
               preload="metadata"
             >
-              <source src="/videos/billy-circle.mov" type="video/quicktime" />
-              <source src="/videos/billy-circle.mov" type="video/mp4" />
+              <source src="./videos/billy-circle.mov" type="video/quicktime" />
+              <source src="./videos/billy-circle.mov" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             <p className="text-sm text-gray-600 mt-2 text-center">

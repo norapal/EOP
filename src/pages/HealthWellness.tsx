@@ -155,7 +155,7 @@ export default function HealthWellness() {
               Photo of Billy for BCS Assessment
             </label>
             <HorseImage
-              src="/images/billy-side-1.jpg"
+              src="./images/billy-side-1.jpg"
               alt="Image: Side profile view of Billy for body condition score assessment"
               title="Image: Side view for BCS assessment showing body condition"
               aspectRatio="aspect-auto"
