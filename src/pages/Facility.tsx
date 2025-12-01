@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Section from '@/components/Section'
+import ImageUpload from '@/components/ImageUpload'
 import HorseImage from '@/components/HorseImage'
 import Lightbox from '@/components/Lightbox'
 
@@ -48,21 +49,10 @@ export default function Facility() {
         </div>
 
         <div className="space-y-6">
-          <div>
-            <h2 className="text-2xl font-serif text-forest-green mb-4">
-              Aerial Facility Layout
-            </h2>
-            <HorseImage
-              src="/images/equine-aerial.jpg"
-              alt="Aerial view of Oppenheimer Family Equine Center showing barns, arenas, and pastures"
-              title="Aerial facility layout"
-              aspectRatio="aspect-auto"
-              onClick={() => setLightboxImage('/images/equine-aerial.jpg')}
-            />
-            <p className="text-sm text-gray-600 mt-2 text-center">
-              Aerial view of the Oppenheimer Family Equine Center facility
-            </p>
-          </div>
+          <ImageUpload
+            label="Aerial Facility Layout"
+            aspectRatio="aspect-auto"
+          />
         </div>
       </div>
 
