@@ -1,6 +1,27 @@
+import { useEffect } from 'react'
+import { useLocation } from 'react-router-dom'
 import Section from '@/components/Section'
 
 export default function Citations() {
+  const location = useLocation()
+
+  useEffect(() => {
+    // Scroll to and highlight the citation when hash is present
+    if (location.hash) {
+      const id = location.hash.replace('#', '')
+      const element = document.getElementById(id)
+      if (element) {
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: 'smooth', block: 'center' })
+          element.classList.add('ring-4', 'ring-forest-green', 'ring-opacity-50')
+          setTimeout(() => {
+            element.classList.remove('ring-4', 'ring-forest-green', 'ring-opacity-50')
+          }, 3000)
+        }, 100)
+      }
+    }
+  }, [location])
+
   return (
     <Section className="bg-white">
       <div className="mb-8">
@@ -17,25 +38,33 @@ export default function Citations() {
           Works Cited
         </h2>
         <div className="space-y-4 text-gray-700">
-          <div className="bg-white rounded-soft p-4">
+          <div id="aqha-history" className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="mb-2">
-              <span className="font-semibold text-navy-blue">[Citation 1]</span>
+              <span className="font-semibold text-navy-blue">[1] American Quarter Horse Association</span>
             </p>
             <p className="text-sm">
-              [Format according to ASCI citation style. Include author, year, title, publication, etc.]
+              American Quarter Horse Association. "American Quarter Horse Association." <em>The History of AQHA</em>, (n.d.), <a href="https://www.aqha.com/history-of-aqha" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">www.aqha.com/history-of-aqha</a>.
+            </p>
+          </div>
+          <div id="aqha-milestone" className="bg-white rounded-soft p-4 transition-all duration-300">
+            <p className="mb-2">
+              <span className="font-semibold text-navy-blue">[2] AQHA Registry Milestone</span>
+            </p>
+            <p className="text-sm">
+              American Quarter Horse Association. "AQHA Registry Hits Milestone – 6 Million Registered Horses." <em>American Quarter Horse Association</em>, (n.d.), <a href="https://www.aqha.com/-/aqha-registry-hits-milestone-6-million-registered-horses" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">www.aqha.com/-/aqha-registry-hits-milestone-6-million-registered-horses</a>.
+            </p>
+          </div>
+          <div id="aqha-register-foal" className="bg-white rounded-soft p-4 transition-all duration-300">
+            <p className="mb-2">
+              <span className="font-semibold text-navy-blue">[3] How to Register Your AQHA Foal</span>
+            </p>
+            <p className="text-sm">
+              American Quarter Horse Association. "How to Register Your AQHA Foal." <em>American Quarter Horse Association</em>, (n.d.), <a href="https://www.aqha.com/-/how-to-register-your-aqha-foal" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">www.aqha.com/-/how-to-register-your-aqha-foal</a>.
             </p>
           </div>
           <div className="bg-white rounded-soft p-4">
             <p className="mb-2">
-              <span className="font-semibold text-navy-blue">[Citation 2]</span>
-            </p>
-            <p className="text-sm">
-              [Format according to ASCI citation style]
-            </p>
-          </div>
-          <div className="bg-white rounded-soft p-4">
-            <p className="mb-2">
-              <span className="font-semibold text-navy-blue">[Citation 3]</span>
+              <span className="font-semibold text-navy-blue">[Additional Citation]</span>
             </p>
             <p className="text-sm">
               [Format according to ASCI citation style]

@@ -1,6 +1,5 @@
 import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout'
-import PDFExport from './components/PDFExport'
 import Home from './pages/Home'
 import AboutBilly from './pages/AboutBilly'
 import Facility from './pages/Facility'
@@ -16,7 +15,6 @@ function App() {
   return (
     <Router>
       <Layout>
-        <PDFExport />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutBilly />} />

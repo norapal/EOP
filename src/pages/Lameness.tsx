@@ -1,5 +1,4 @@
 import Section from '@/components/Section'
-import ImageUpload from '@/components/ImageUpload'
 
 export default function Lameness() {
   return (
@@ -125,29 +124,6 @@ export default function Lameness() {
         <p className="mt-4 text-gray-700">
           <span className="font-semibold text-navy-blue">Billy's Lameness Grade:</span> Billy scores a level 3 out of 5 on the AAEP lameness scale for his right forelimb and a 2 out of 5 for his right hind limb. His right forelimb lameness is consistently observed at the trot under all circumstances. His right hind limb lameness is subtle at the walk but is more noticeable when he goes uphill or downhill, and when circling in both directions.
         </p>
-      </div>
-
-      {/* Physical Exam Findings */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
-        <div className="bg-white rounded-softer p-6 border border-gray-200">
-          <h2 className="text-2xl font-serif text-forest-green mb-4">
-            Physical Exam Findings
-          </h2>
-          <textarea
-            className="w-full h-64 px-4 py-2 border border-gray-300 rounded-soft focus:outline-none focus:ring-2 focus:ring-forest-green"
-            placeholder="Document physical examination findings, including palpation, range of motion, heat, swelling, etc."
-          />
-        </div>
-
-        <div className="bg-white rounded-softer p-6 border border-gray-200">
-          <h2 className="text-2xl font-serif text-forest-green mb-4">
-            Physical Exam Worksheet
-          </h2>
-          <ImageUpload
-            label="Upload completed physical exam worksheet"
-            aspectRatio="aspect-auto"
-          />
-        </div>
       </div>
 
       {/* Lameness Detection Methodology */}

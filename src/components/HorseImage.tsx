@@ -63,7 +63,7 @@ export default function HorseImage({
           }}
         />
         {title && (
-          <div className="absolute bottom-0 left-0 right-0 bg-black/60 text-white p-2 text-sm opacity-0 group-hover:opacity-100 transition-opacity">
+          <div className="absolute bottom-0 left-0 right-0 bg-black/70 text-white p-2 text-sm">
             {title}
           </div>
         )}

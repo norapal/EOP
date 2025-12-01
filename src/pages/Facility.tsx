@@ -55,13 +55,10 @@ export default function Facility() {
             <HorseImage
               src="./images/equine-aerial.jpg"
               alt="Aerial view of Oppenheimer Family Equine Center showing barns, arenas, and pastures"
-              title="Aerial facility layout"
+              title="Aerial view of Oppenheimer Family Equine Center facility"
               aspectRatio="aspect-auto"
               onClick={() => setLightboxImage('./images/equine-aerial.jpg')}
             />
-            <p className="text-sm text-gray-600 mt-2 text-center">
-              Aerial view of the Oppenheimer Family Equine Center facility
-            </p>
           </div>
         </div>
       </div>
@@ -76,37 +73,28 @@ export default function Facility() {
             <HorseImage
               src="./images/barn-front.jpg"
               alt="Front view of the barn at Oppenheimer Family Equine Center"
-              title="Barn exterior"
+              title="Barn exterior showing facility structure"
               aspectRatio="aspect-auto"
               onClick={() => setLightboxImage('./images/barn-front.jpg')}
             />
-            <p className="text-sm text-gray-600 mt-2 text-center">
-              Barn exterior showing facility structure
-            </p>
           </div>
           <div>
             <HorseImage
               src="./images/stall-front.jpg"
               alt="Front view of horse stall"
-              title="Stall front"
+              title="Stall front showing design and accessibility"
               aspectRatio="aspect-auto"
               onClick={() => setLightboxImage('./images/stall-front.jpg')}
             />
-            <p className="text-sm text-gray-600 mt-2 text-center">
-              Stall front showing design and accessibility
-            </p>
           </div>
           <div>
             <HorseImage
               src="./images/stall-inside.jpg"
               alt="Interior view of horse stall"
-              title="Stall interior"
+              title="Interior stall view showing space and bedding"
               aspectRatio="aspect-auto"
               onClick={() => setLightboxImage('./images/stall-inside.jpg')}
             />
-            <p className="text-sm text-gray-600 mt-2 text-center">
-              Interior stall view showing space and bedding
-            </p>
           </div>
         </div>
       </div>
@@ -121,37 +109,28 @@ export default function Facility() {
             <HorseImage
               src="./images/gross-corner.jpg"
               alt="Stall corner showing wear and requiring cleaning"
-              title="Stall corner maintenance needed"
+              title="Stall corner requiring cleaning and maintenance"
               aspectRatio="aspect-auto"
               onClick={() => setLightboxImage('./images/gross-corner.jpg')}
             />
-            <p className="text-sm text-gray-600 mt-2 text-center">
-              Stall corner requiring cleaning and maintenance
-            </p>
           </div>
           <div>
             <HorseImage
               src="./images/feeding-bin.jpg"
               alt="Feeding bin requiring maintenance and sanitation"
-              title="Feeding bin maintenance needed"
+              title="Feeding bin needing sanitation improvements"
               aspectRatio="aspect-auto"
               onClick={() => setLightboxImage('./images/feeding-bin.jpg')}
             />
-            <p className="text-sm text-gray-600 mt-2 text-center">
-              Feeding bin needing sanitation improvements
-            </p>
           </div>
           <div>
             <HorseImage
               src="./images/water-trough.jpg"
               alt="Water trough requiring cleaning and upkeep"
-              title="Water trough maintenance needed"
+              title="Water trough requiring cleaning and upkeep"
               aspectRatio="aspect-auto"
               onClick={() => setLightboxImage('./images/water-trough.jpg')}
             />
-            <p className="text-sm text-gray-600 mt-2 text-center">
-              Water trough requiring cleaning and upkeep
-            </p>
           </div>
         </div>
       </div>

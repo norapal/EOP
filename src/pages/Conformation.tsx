@@ -32,9 +32,6 @@ export default function Conformation() {
                 aspectRatio="aspect-auto"
                 onClick={() => setLightboxImage('./images/billy-front-1.jpg')}
               />
-              <p className="text-sm text-gray-600 mt-2 text-center">
-                Image 1: Front view showing leg alignment, shoulder width, and head carriage
-              </p>
             </div>
             <div>
               <HorseImage
@@ -44,9 +41,6 @@ export default function Conformation() {
                 aspectRatio="aspect-auto"
                 onClick={() => setLightboxImage('./images/billy-side-1.jpg')}
               />
-              <p className="text-sm text-gray-600 mt-2 text-center">
-                Image 2: Lateral view showing shoulder angle, pastern angle, and topline
-              </p>
             </div>
             <div>
               <HorseImage
@@ -56,9 +50,6 @@ export default function Conformation() {
                 aspectRatio="aspect-auto"
                 onClick={() => setLightboxImage('./images/billy-rear.jpg')}
               />
-              <p className="text-sm text-gray-600 mt-2 text-center">
-                Image 3: Rear view showing hindquarter structure, croup, and leg straightness
-              </p>
             </div>
           </div>
         </div>
@@ -106,9 +97,6 @@ export default function Conformation() {
                 aspectRatio="aspect-auto"
                 onClick={() => setLightboxImage('./images/billy-front-documentation.jpg')}
               />
-              <p className="text-sm text-gray-600 mt-2 text-center">
-                Image 4: Front view with conformational annotations and measurements
-              </p>
             </div>
             <div>
               <HorseImage
@@ -118,9 +106,6 @@ export default function Conformation() {
                 aspectRatio="aspect-auto"
                 onClick={() => setLightboxImage('./images/billy-side-documentation.jpg')}
               />
-              <p className="text-sm text-gray-600 mt-2 text-center">
-                Image 5: Lateral view with conformational annotations and measurements
-              </p>
             </div>
             <div>
               <HorseImage
@@ -130,9 +115,6 @@ export default function Conformation() {
                 aspectRatio="aspect-auto"
                 onClick={() => setLightboxImage('./images/billy-rear-documentation.jpg')}
               />
-              <p className="text-sm text-gray-600 mt-2 text-center">
-                Image 6: Rear view with conformational annotations and measurements
-              </p>
             </div>
           </div>
         </div>
@@ -172,21 +154,15 @@ export default function Conformation() {
                 aspectRatio="aspect-auto"
                 onClick={() => setLightboxImage('./images/billy-hindquarters.jpg')}
               />
-              <p className="text-sm text-gray-600 mt-2 text-center">
-                Image 7: Hindquarters and back view showing topline, croup, and muscling
-              </p>
             </div>
             <div>
               <HorseImage
                 src="./images/billy-side-2.jpg"
                 alt="Image 8: Additional side profile view of Billy"
-                title="Image 8: Additional lateral view"
+                title="Image 8: Additional lateral view for conformation analysis"
                 aspectRatio="aspect-auto"
                 onClick={() => setLightboxImage('./images/billy-side-2.jpg')}
               />
-              <p className="text-sm text-gray-600 mt-2 text-center">
-                Image 8: Additional lateral view for conformation analysis
-              </p>
             </div>
           </div>
         </div>

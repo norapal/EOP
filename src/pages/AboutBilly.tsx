@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import Section from '@/components/Section'
 import HorseImage from '@/components/HorseImage'
 import Lightbox from '@/components/Lightbox'
@@ -87,14 +88,9 @@ export default function AboutBilly() {
                 Breed History & Status
               </h2>
               <p className="text-gray-700 leading-relaxed">
-              [CITE]The American Quarter Horse Association was founded on March 15, 1940 in Fort Worth, Texas. Bob Denhardt gathered 75 breeders
-and owners to found this association. The American Quarter Horse got its name from its ability to run a quarter mile in 23 seconds.
-The very first registered Quarter Horse's name was "Wimpy" who was a King Ranch stallion that was registered in March 1941.
+              The American Quarter Horse Association was founded on March 15, 1940 in Fort Worth, Texas. Bob Denhardt gathered 75 breeders and owners to found this association. The American Quarter Horse got its name from its ability to run a quarter mile in 23 seconds. The very first registered Quarter Horse's name was "Wimpy" who was a King Ranch stallion that was registered in March 1941 <sup><Link to="/citations#aqha-history" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[1]</Link></sup>.
 <br /><br />
-The American Quarter Horse has become the largest breed association in the world. Some important milestones for this breed began in
-1974 when the American Quarter Horse Association reached 1 million registered horses. In 1983 the registry reached 2 million horse
-that were registered and in 2020 the registry had over 225,000 members. In addition, as of the year 2020 the AQHA had 6 million
-registered horses.
+The American Quarter Horse has become the largest breed association in the world. Some important milestones for this breed began in 1974 when the American Quarter Horse Association reached 1 million registered horses. In 1983 the registry reached 2 million horses that were registered and in 2020 the registry had over 225,000 members. In addition, as of the year 2020 the AQHA had 6 million registered horses <sup><Link to="/citations#aqha-milestone" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[2]</Link></sup>.
               </p>
             </div>
           </div>
@@ -139,7 +135,7 @@ registered horses.
                 1. Parentage and Breeding Documentation
               </h3>
               <p className="leading-relaxed">
-                The sire and dam's names and registration numbers must be identified in the American Quarter Horse Association's registry. The breeder's certificate also needs to be provided with the dates from the stallion owner and the mare owner. A registration application must be completed by the owner of the mare during foaling and how the foal was produced must be listed (artificial insemination, embryo transfer, etc.) on the document as well. In addition, the stallion owners have to file annual breeding reports. To be registered in the American Quarter Horse Association either both the parents must be registered American Quarter Horses, or one parent must be an American Quarter Horse and the other parent must be a registered thoroughbred, or if a horse were to move from the Appendix registry to the numbered registry the horse must earn a register of merit in open classes in addition to having a veterinarian write that the horse has no undesirable traits.
+                The sire and dam's names and registration numbers must be identified in the American Quarter Horse Association's registry. The breeder's certificate also needs to be provided with the dates from the stallion owner and the mare owner. A registration application must be completed by the owner of the mare during foaling and how the foal was produced must be listed (artificial insemination, embryo transfer, etc.) on the document as well. In addition, the stallion owners have to file annual breeding reports. To be registered in the American Quarter Horse Association either both the parents must be registered American Quarter Horses, or one parent must be an American Quarter Horse and the other parent must be a registered thoroughbred, or if a horse were to move from the Appendix registry to the numbered registry the horse must earn a register of merit in open classes in addition to having a veterinarian write that the horse has no undesirable traits <sup><Link to="/citations#aqha-register-foal" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[3]</Link></sup>.
               </p>
             </div>
             <div>
@@ -147,7 +143,7 @@ registered horses.
                 2. Physical Identifiers and Documentation
               </h3>
               <p className="leading-relaxed">
-                When registering your foal with the American Quarter Horse Association you must list the foal's date of birth, gender, and coloring. You must also include their markings on the documents as well with pictures of their left side, right side, front, back, and a markings diagram. The photos that are submitted must show all the markings of the horse that you documented for identification. Any other unique features must also be noted on the document.
+                When registering your foal with the American Quarter Horse Association you must list the foal's date of birth, gender, and coloring. You must also include their markings on the documents as well with pictures of their left side, right side, front, back, and a markings diagram. The photos that are submitted must show all the markings of the horse that you documented for identification. Any other unique features must also be noted on the document <sup><Link to="/citations#aqha-register-foal" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[3]</Link></sup>.
               </p>
             </div>
             <div>
@@ -155,7 +151,7 @@ registered horses.
                 3. DNA Testing and Parentage Verification
               </h3>
               <p className="leading-relaxed">
-                All breeding stallions and mares need to be DNA tested before the foal can be registered. The parent must be genetically verified if the foal was produced by an embryo transfer, produced by transported semen, produced by frozen semen, produced by a mare that was bred to more than one stallion in a month, produced by a stallion or mare that is a descendant of the stallion Impressive (genetic issues), produced by a stallion that is under 2 years of age, or if the offspring was produced by a stallion that was over 48 months of age. The DNA testing performed looks at the DNA genotypes of the parents. This profile also has the specific markers from the parents to identify the parents correctly. Furthermore, additional documents of verification are required for racehorses or weanlings. Racehorses need to have their parent line verified before official identification to run in a race. Weanlings need to also have their parent line verified before they compete at the American Quarter Horse Association World Championship show.
+                All breeding stallions and mares need to be DNA tested before the foal can be registered. The parent must be genetically verified if the foal was produced by an embryo transfer, produced by transported semen, produced by frozen semen, produced by a mare that was bred to more than one stallion in a month, produced by a stallion or mare that is a descendant of the stallion Impressive (genetic issues), produced by a stallion that is under 2 years of age, or if the offspring was produced by a stallion that was over 48 months of age. The DNA testing performed looks at the DNA genotypes of the parents. This profile also has the specific markers from the parents to identify the parents correctly. Furthermore, additional documents of verification are required for racehorses or weanlings. Racehorses need to have their parent line verified before official identification to run in a race. Weanlings need to also have their parent line verified before they compete at the American Quarter Horse Association World Championship show <sup><Link to="/citations#aqha-register-foal" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[3]</Link></sup>.
               </p>
             </div>
           </div>
@@ -264,7 +260,7 @@ registered horses.
             <HorseImage
               src="./images/billy-side-2.jpg"
               alt="Image 3: Additional side profile view of Billy"
-              title="Image 3: Additional lateral view"
+              title="Image 3: Additional side profile for breed characteristics"
               aspectRatio="aspect-auto"
               onClick={() => setLightboxImage('./images/billy-side-2.jpg')}
             />

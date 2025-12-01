@@ -1,5 +1,4 @@
 import Section from '@/components/Section'
-import ImageUpload from '@/components/ImageUpload'
 
 export default function Pedigree() {
   return (
@@ -19,14 +18,10 @@ export default function Pedigree() {
           Pedigree Chart
         </h2>
         <p className="text-gray-700 leading-relaxed mb-4">
-          Display Billy's pedigree chart showing his lineage:
+          Billy's pedigree chart showing his lineage:
         </p>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          <ImageUpload
-            label="Upload or create pedigree chart"
-            aspectRatio="aspect-auto"
-          />
-          <div className="bg-white rounded-soft p-6">
+        <div className="grid grid-cols-1 gap-6">
+          <div className="bg-white rounded-soft p-6 border border-gray-300">
             <h3 className="font-semibold text-navy-blue mb-4">Pedigree Information:</h3>
             <div className="space-y-2 text-gray-700 text-sm">
               <div>
