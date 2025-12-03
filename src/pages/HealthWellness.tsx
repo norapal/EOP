@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Section from '@/components/Section'
 import HorseImage from '@/components/HorseImage'
 
@@ -47,8 +48,8 @@ export default function HealthWellness() {
         <p className="text-gray-700 leading-relaxed mb-4">
           Regular physical exams help owners monitor their horse and assist in identifying any problems early. Billy should be checked routinely due to his age and chronic conditions, like his lameness.
         </p>
-        <p className="text-gray-700 leading-relaxed">
-          [*** Add how a physical exam on a horse is conducted - systematic approach, what to check, and normal vs. abnormal findings]
+        <p className="text-gray-700 leading-relaxed mt-4">
+            The first step of your physical exam is to look at the horse from a distance and assess the stance, general behavior, body condition score, coat health, and respiratory rate <sup><Link to="/citations#vt-physical-exam" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[13]</Link></sup>. The head and neck examination starts by lifting the upper lip to determine color, moisture, and capillary refill time in the upper membranes. The horse’s dentition condition should also be noted. It is important to look for any chips or irregularities in the teeth. Proper reflexes in the eyes can then be checked, and an evaluation of the nares for symmetry and airflow can follow <sup><Link to="/citations#vt-physical-exam" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[13]</Link></sup>. Also note any abnormal discharge from the nose, eyes, or mouth. Next, you should palpate the ears for temperature, lymph nodes for swelling, and the pulse should be recorded via the facial artery <sup><Link to="/citations#vt-physical-exam" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[13]</Link></sup>. During the thoracic region assessment, listen for proper lung function by paying close attention to breathing sounds. Compare these sounds on both sides and pay close attention to inspiration being louder than expiration <sup><Link to="/citations#vt-physical-exam" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[13]</Link></sup>. Then listen to the heart rate on both sides to check valve function and the heart rate of your horse <sup><Link to="/citations#vt-physical-exam" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[13]</Link></sup>. When examining the abdominal region, listen for rumbling gut sounds on both sides. The last step would be the musculoskeletal portion, which identifies any swelling, heat, or pain on all four limbs <sup><Link to="/citations#vt-physical-exam" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[13]</Link></sup>. In this portion, the digital pulse in each limb should also be taken, and an assessment of muscle symmetry should be conducted <sup><Link to="/citations#vt-physical-exam" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[13]</Link></sup>.
         </p>
       </div>
 
@@ -58,7 +59,7 @@ export default function HealthWellness() {
           Daily Diet
         </h2>
         <p className="text-gray-700 leading-relaxed mb-4">
-          Billy's diet was curated to meet the needs of a senior horse with idle activity levels. His diet was also made to support his joint health and prevent him from putting on weight. His diet was also designed to help him increase his BCS of 4 to more of an ideal range. Compared to younger horses, senior horses need calorie-dense diets to maintain a good body condition score due to their decreased digestive efficiency. [CITE]
+          Billy's diet was curated to meet the needs of a senior horse with idle activity levels. His diet was made to support his joint health while helping him reach an ideal body condition score. Senior horses are prone to digestive and dentition changes <sup><Link to="/citations#iowa-state-senior" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[14]</Link></sup>. Older horses have reduced fiber fermentation capabilities in the hindgut and decreased protein digestion in their small intestine <sup><Link to="/citations#iowa-state-senior" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[14]</Link></sup>. As a result, senior horses need higher-quality and more digestible feed sources <sup><Link to="/citations#iowa-state-senior" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[14]</Link></sup>. Older horses benefit more from high-quality protein sources like alfalfa, which provides fiber that is easier to digest and amino acids that support muscle maintenance <sup><Link to="/citations#iowa-state-senior" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[14]</Link></sup>.
         </p>
         
         <h3 className="text-xl font-serif text-forest-green mb-3 mt-6">Feeding Schedule</h3>
@@ -76,36 +77,46 @@ export default function HealthWellness() {
                 <td className="border border-gray-300 px-4 py-2 font-medium">Morning (7:00 AM)</td>
                 <td className="border border-gray-300 px-4 py-2">
                   Grass hay<br />
+                  Alfalfa pellets<br />
                   Ground flaxseed<br />
                   Senior concentrate feed
                 </td>
                 <td className="border border-gray-300 px-4 py-2">
-                  10 lbs<br />
+                  8 lbs<br />
+                  3 lbs<br />
                   4 oz<br />
-                  2 lbs
+                  1 lb
                 </td>
               </tr>
               <tr className="bg-cream">
                 <td className="border border-gray-300 px-4 py-2 font-medium">Afternoon (3:00 PM)</td>
-                <td className="border border-gray-300 px-4 py-2">Grass hay</td>
-                <td className="border border-gray-300 px-4 py-2">10 lbs</td>
+                <td className="border border-gray-300 px-4 py-2">
+                  Grass hay<br />
+                  Alfalfa pellets
+                </td>
+                <td className="border border-gray-300 px-4 py-2">
+                  8 lbs<br />
+                  2 lbs
+                </td>
               </tr>
               <tr className="bg-white">
                 <td className="border border-gray-300 px-4 py-2 font-medium">Evening (7:00 PM)</td>
                 <td className="border border-gray-300 px-4 py-2">
                   Grass hay<br />
+                  Alfalfa pellets<br />
                   Joint supplement<br />
                   Senior concentrate feed
                 </td>
                 <td className="border border-gray-300 px-4 py-2">
                   5 lbs<br />
+                  2 lbs<br />
                   1 scoop<br />
-                  2 lbs
+                  1 lb
                 </td>
               </tr>
               <tr className="bg-cream">
                 <td className="border border-gray-300 px-4 py-2 font-medium">Water</td>
-                <td className="border border-gray-300 px-4 py-2" colSpan={2}>Free choice access to fresh clean water (minimum 10-12 gallons per day) [CITE]</td>
+                <td className="border border-gray-300 px-4 py-2" colSpan={2}>Free choice access to fresh clean water (minimum 10-12 gallons per day) <sup><Link to="/citations#iowa-state-senior" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[14]</Link></sup></td>
               </tr>
             </tbody>
           </table>
@@ -114,29 +125,29 @@ export default function HealthWellness() {
         <div className="mt-6 space-y-4">
           <div className="bg-cream rounded-soft p-4">
             <p className="text-gray-700">
-              <span className="font-semibold text-navy-blue">Total Daily Intake:</span> 25 lbs grass hay + 4 lbs concentrate = approximately 29 lbs (2.3% of Billy's body weight)
+              <span className="font-semibold text-navy-blue">Total Daily Intake:</span> 21 lbs grass hay + 7 lbs alfalfa pellets + 2 lbs concentrate + joint supplement = 30 lbs (2.4% body weight)
             </p>
           </div>
           
           <div className="space-y-3 text-gray-700">
             <p className="leading-relaxed">
-              Billy gets about 29 lbs of feed per day. His feed consists of grass hay, concentrate, and some supplements for his joint health. Billy gets a little more than 2% of his body weight so he can gradually gain weight because his BCS is at 4 which is moderately thin. [CITE: https://equusmagazine.com/horse-care/feeding-weight-gain-25995]
+              Billy consumes about 30 lbs of feed per day, which consists of grass hay, alfalfa pellets, senior concentrate, and joint supplements. Billy's total feed intake is more than 2% of his body weight to promote gradual weight gain. Billy's body condition score is 3.83, which is moderately thin. The ideal body condition score ranges from 4-6, and since Billy is on the lower end of that scale, a gradual increase in his weight with calorie-dense feeds will help improve his body condition score and overall health <sup><Link to="/citations#iowa-state-bcs" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[15]</Link></sup>.
             </p>
             
             <p className="leading-relaxed">
-              Billy consumes 25 lbs of grass hay a day which is 2% of his body weight for maintenance and essential fiber intake for his digestive health. [CITE]
+              Grass hay (21 lbs) makes up the bulk of Billy's diet to provide essential fiber for his digestive health. For older horses that have a body condition score less than 4, it is recommended to feed 1.5-2% of the horse's body weight in a good-quality grass hay <sup><Link to="/citations#iowa-state-senior" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[14]</Link></sup>. The grass hay in Billy's diet is supplemented with grain-based concentrate at 0.5-1% of his body weight to increase his body condition score <sup><Link to="/citations#iowa-state-senior" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[14]</Link></sup>. The 7 lbs of alfalfa pellets are included in Billy's diet to provide extra highly digestible fiber, high-quality protein to prevent further muscle loss, and add additional calories <sup><Link to="/citations#iowa-state-senior" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[14]</Link></sup>. Older horses are not able to process protein as efficiently, which can decrease body condition score and muscle, which is why alfalfa is needed in his diet <sup><Link to="/citations#iowa-state-senior" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[14]</Link></sup>.
             </p>
             
             <p className="leading-relaxed">
-              Billy needs 4 lbs of concentrate because he is moderately thin with a BCS of 4. Billy needs extra calories to gain weight and increase his BCS to the ideal range of 4.5-5. [CITE] Older horses typically struggle to maintain their weight due to less efficient digestive systems that are not as good at getting all the nutrients out of the hay. [CITE] The concentrate also makes it easier to consume more calories without having to significantly increase the amount of hay consumed. [CITE SOMETHING THAT COMPARES HAY CALS TO CONCENTRATE] Divided feedings also help improve digestion. [CITE]
+              Billy gets 2 lbs of senior concentrate that is divided between morning and evening meal times. Iowa State University recommends concentrate rations to be about 0.5-1% of the horse's body weight with 12-14% crude protein and 4% fat <sup><Link to="/citations#iowa-state-senior" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[14]</Link></sup>. However, Billy's diet prioritizes highly digestible fiber like alfalfa pellets over starch based concentrates to boost his gut health and minimize any stress on his body. Due to his age of 22, navicular disease, joint issues, and idle activity level a lower addition of concentrate combined with alfalfa in his diet gives Billy enough feed to gradually meet more of an ideal body condition score. Older horses need their diet to have more calories from energy sources like alfalfa to maintain their weight <sup><Link to="/citations#iowa-state-senior" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[14]</Link></sup>. Furthermore, giving Billy multiple small meals throughout the day boosts digestive efficiency <sup><Link to="/citations#iowa-state-senior" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[14]</Link></sup>.
             </p>
             
             <p className="leading-relaxed">
-              Ground flaxseed provides Billy with Omega-3 fatty acids with anti-inflammatory benefits that help with his navicular syndrome and arthritis. [CITE THIS] The added fat also helps Billy gain some weight and ground flaxseed is needed so it does not get passed through like whole seeds. [CITE THIS]
+              Ground flaxseed (4 oz) is included in Billy's diet to act as an anti-inflammatory <sup><Link to="/citations#dr-gray-flax" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[16]</Link></sup>. Ground flaxseeds have omega-3 fatty acids that can help manage Billy's navicular disease and arthritis <sup><Link to="/citations#dr-gray-flax" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[16]</Link></sup>. Omega-3 fatty acids have been proven to support joint health and reduce discomfort during exercise <sup><Link to="/citations#dr-gray-flax" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[16]</Link></sup>. The ground flaxseeds were also incorporated to add dietary fat to support weight gain <sup><Link to="/citations#iowa-state-senior" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[14]</Link></sup>. The flaxseeds in Billy's diet need to be ground rather than whole so that they can get digested and provide the desired nutrient benefits <sup><Link to="/citations#smartpak-joint" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[17]</Link></sup>. Grinding the seed also releases the omega-3 fatty acids and the other good benefits <sup><Link to="/citations#smartpak-joint" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[17]</Link></sup>.
             </p>
             
             <p className="leading-relaxed">
-              Billy's joint supplement has glucosamine, chondroitin, and MSM to support his cartilage and joints. [CITE THIS]
+              Billy's diet includes one scoop of a joint supplement that promotes his cartilage health and joint function to help manage his arthritis and navicular syndrome. This joint supplement contains glucosamine, chondroitin sulfate, and MSM. The joint supplement provides proactive joint support that is very helpful for senior horses <sup><Link to="/citations#smartpak-joint" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[17]</Link></sup>. Glucosamine and chondroitin sulfate promote joint and cartilage health, while the MSM helps reduce the wear of joint tissues that are caused by exercise <sup><Link to="/citations#smartpak-joint" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[17]</Link></sup>. Additionally, they provide antioxidant support <sup><Link to="/citations#smartpak-joint" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[17]</Link></sup>.
             </p>
           </div>
         </div>
@@ -148,7 +159,7 @@ export default function HealthWellness() {
           Body Condition Assessment
         </h2>
         <p className="text-gray-700 leading-relaxed mb-4">
-          Billy scores a 4 on Henneke's Body Condition Score Sheet. Billy's score is moderately thin and not in the ideal range. This is primarily caused by weight loss due to old age. [CITE]
+          Billy scores a 3.83 on Henneke's Body Condition Score Sheet. Billy's score is moderately thin and not in the ideal range. This is primarily caused by weight loss due to old age. [CITE]
         </p>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <div>
@@ -157,8 +168,8 @@ export default function HealthWellness() {
             </label>
             <HorseImage
               src="./images/billy-side-1.jpg"
-              alt="Image: Side profile view of Billy for body condition score assessment"
-              title="Image: Side view for BCS assessment showing body condition"
+              alt="Image 19: Side profile view of Billy for body condition score assessment"
+              title="Image 19: Side view for BCS assessment showing body condition"
               aspectRatio="aspect-auto"
             />
           </div>

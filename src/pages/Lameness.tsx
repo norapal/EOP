@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Section from '@/components/Section'
 
 export default function Lameness() {
@@ -18,7 +19,7 @@ export default function Lameness() {
           History of Lameness
         </h2>
         <p className="text-gray-700 leading-relaxed">
-          Billy has chronic lameness that affects the right side of both of his limbs. Billy's right forelimb lameness is caused by navicular syndrome, a chronic degenerative condition that affects his hoof. When Billy trots he bobs his head, shortens his stride length on his lame limb, and has an irregular rhythm. Billy's lameness is also noticeable when circling in both directions. His right hind limb lameness is more subtle at the walk but becomes more noticeable when he goes uphill or downhill. Upon examination, a bony knob was palpated on his right hock joint, suggesting that Billy could have another degenerative joint condition. This lameness could have developed after Billy constantly shifted weight away from his right forelimb. In addition, Billy has many conformational faults like a steep shoulder angle, splay-footed stance, and cow-hocked hindquarters that could have slowly caused his lameness when he was a riding horse.
+          Billy has chronic lameness that affects the right side of both of his limbs. Billy's right forelimb lameness is caused by navicular syndrome, a chronic degenerative condition that affects his hoof. When Billy trots he bobs his head, shortens his stride length on his lame limb, and has an irregular rhythm. Billy's lameness is also noticeable when circling in both directions. His right hind limb lameness is more subtle at the walk but becomes more noticeable when he goes uphill or downhill. Upon examination, a bony knob was palpated on his right hock joint, suggesting that Billy could have another degenerative joint condition. This lameness could have developed after Billy constantly shifted weight away from his right forelimb. In addition, Billy has many conformational faults like a steep shoulder angle, splay-footed stance, and cow-hocked hindquarters that could have slowly caused his lameness when he was a riding horse <sup><Link to="/citations#navicular-usu" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[10]</Link></sup> <sup><Link to="/citations#navicular-merck" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[11]</Link></sup>.
         </p>
       </div>
 
@@ -122,7 +123,7 @@ export default function Lameness() {
           </table>
         </div>
         <p className="mt-4 text-gray-700">
-          <span className="font-semibold text-navy-blue">Billy's Lameness Grade:</span> Billy scores a level 3 out of 5 on the AAEP lameness scale for his right forelimb and a 2 out of 5 for his right hind limb. His right forelimb lameness is consistently observed at the trot under all circumstances. His right hind limb lameness is subtle at the walk but is more noticeable when he goes uphill or downhill, and when circling in both directions.
+          <span className="font-semibold text-navy-blue">Billy's Lameness Grade:</span> Billy scores a level 3 out of 5 on the AAEP lameness scale for his right forelimb and a 2 out of 5 for his right hind limb. His right forelimb lameness is consistently observed at the trot under all circumstances. His right hind limb lameness is subtle at the walk but is more noticeable when he goes uphill or downhill, and when circling in both directions <sup><Link to="/citations#aaep-lameness" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[12]</Link></sup>.
         </p>
       </div>
 
@@ -137,19 +138,19 @@ export default function Lameness() {
         <div className="space-y-4 text-gray-700">
           <div>
             <h3 className="font-semibold text-navy-blue mb-2">Visual Observation:</h3>
-            <p>Daily observations of routine handling and everyday movement are a great way to detect lameness. Look for shortened strides, head bobbing, inability to move a limb, or constantly trying to avoid putting pressure on a hurt area. Behavioral changes like irritability or resistance to move can also signal lameness. When evaluating Billy's lameness, observing all his movements helped identify right forelimb lameness at the trot, with head bobbing and shortened stride length being particularly noticeable.</p>
+            <p>Daily observations of routine handling and everyday movement are a great way to detect lameness. Look for shortened strides, head bobbing, inability to move a limb, or constantly trying to avoid putting pressure on a hurt area. Behavioral changes like irritability or resistance to move can also signal lameness. When evaluating Billy's lameness, observing all his movements helped identify right forelimb lameness at the trot, with head bobbing and shortened stride length being particularly noticeable <sup><Link to="/citations#aaep-lameness" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[12]</Link></sup>.</p>
           </div>
           <div>
             <h3 className="font-semibold text-navy-blue mb-2">Hands-On Examination:</h3>
-            <p>For a basic evaluation, palpating limbs, joints, or muscles to detect the source of pain is a great way to begin determining lameness. For Billy, a swollen right hock joint was found upon palpation, and behavioral signals were evident when pressure was applied to sore areas. Hoof testers are also a great way to determine pain in the hoof region. A joint flexion test can allow lameness identification during a trot by temporarily stressing the joint to see if lameness becomes more apparent.</p>
+            <p>For a basic evaluation, palpating limbs, joints, or muscles to detect the source of pain is a great way to begin determining lameness. For Billy, a swollen right hock joint was found upon palpation, and behavioral signals were evident when pressure was applied to sore areas. Hoof testers are also a great way to determine pain in the hoof region. A joint flexion test can allow lameness identification during a trot by temporarily stressing the joint to see if lameness becomes more apparent <sup><Link to="/citations#aaep-lameness" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[12]</Link></sup>.</p>
           </div>
           <div>
             <h3 className="font-semibold text-navy-blue mb-2">Movement Evaluation:</h3>
-            <p>Evaluating movement at a walk, trot, canter, and under special circumstances is another great way to determine lameness. Look at the horse moving in straight lines on different surfaces, as well as on circles in both directions. Looking at special circumstances like moving in a circle helped identify Billy's right hindlimb lameness, as it became more apparent during circling. Additionally, observe the horse going uphill and downhill, as this can reveal more subtle lameness that may not be visible on level ground.</p>
+            <p>Evaluating movement at a walk, trot, canter, and under special circumstances is another great way to determine lameness. Look at the horse moving in straight lines on different surfaces, as well as on circles in both directions. Looking at special circumstances like moving in a circle helped identify Billy's right hindlimb lameness, as it became more apparent during circling. Additionally, observe the horse going uphill and downhill, as this can reveal more subtle lameness that may not be visible on level ground <sup><Link to="/citations#aaep-lameness" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[12]</Link></sup>.</p>
           </div>
           <div>
             <h3 className="font-semibold text-navy-blue mb-2">Limitations:</h3>
-            <p>Lameness evaluations performed by owners have limitations. Subtle lamenesses in horses can be hard to identify without experience or proper technique. Determining the exact location of lameness is also very difficult. A veterinarian, MRI, or CT scans are typically the only accurate ways to determine exact locations of lameness or conditions like navicular syndrome or degenerative joint disease. Moreover, when lameness is detected in a horse it is important to seek a veterinarian's guidance to create a treatment plan that best suits the horse.</p>
+            <p>Lameness evaluations performed by owners have limitations. Subtle lamenesses in horses can be hard to identify without experience or proper technique. Determining the exact location of lameness is also very difficult. A veterinarian, MRI, or CT scans are typically the only accurate ways to determine exact locations of lameness or conditions like navicular syndrome or degenerative joint disease. Moreover, when lameness is detected in a horse it is important to seek a veterinarian's guidance to create a treatment plan that best suits the horse <sup><Link to="/citations#aaep-lameness" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[12]</Link></sup>.</p>
           </div>
         </div>
       </div>

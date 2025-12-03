@@ -1,4 +1,6 @@
+import { Link } from 'react-router-dom'
 import Section from '@/components/Section'
+import HorseImage from '@/components/HorseImage'
 
 export default function Performance() {
   return (
@@ -136,15 +138,25 @@ export default function Performance() {
         <h2 className="text-2xl font-serif text-forest-green mb-4">
           Comparative Analysis
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
           <div>
             <h3 className="font-semibold text-navy-blue mb-2">Ideal Movement:</h3>
-            <p className="text-gray-700">Based on the standards of the American Quarter Horse Association the ideal movement of horses from this breed registry should have a consistent rhythm with even regular footfalls in all gaits. The walk should have a clear four beat pattern with relaxed strides. The trot should be a steady and clear two beat diagonal rhythm that has balanced movement with a moment of suspension. Additionally, the horse's canter should be a smooth three beat pattern with clear suspension. The hindquarters should also be engaged for suspension. For Quarter Horses movement should be harmonious and balanced.  </p>
+            <p className="text-gray-700">Based on the standards of the American Quarter Horse Association the ideal movement of horses from this breed registry should have a consistent rhythm with even regular footfalls in all gaits. The walk should have a clear four beat pattern with relaxed strides. The trot should be a steady and clear two beat diagonal rhythm that has balanced movement with a moment of suspension. Additionally, the horse's canter should be a smooth three beat pattern with clear suspension. The hindquarters should also be engaged for suspension. For Quarter Horses movement should be harmonious and balanced <sup><Link to="/citations#aqha-western-pleasure" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[9]</Link></sup>.</p>
           </div>
           <div>
             <h3 className="font-semibold text-navy-blue mb-2">Billy's Movement:</h3>
             <p className="text-gray-700">Billy's movement is different from that of an ideal Quarter Horse. Billy's gait is very irregular which is primarily caused by confirmational issues and lameness on his right side. As mentioned ideal movement should be rhythmic and even, but Billy's footfalls are uneven. He also avoids pressure on his right side which makes his strides short and restricted. The most significant area of restraint in movement is in the canter. Billy is not able to maintain a canter and suspend. The movement lacks a relaxed and effortless movement forward. He appears very guarded and cautious in his movement.</p>
           </div>
+        </div>
+        
+        <div className="mt-6 max-w-2xl mx-auto">
+          <HorseImage
+            src="./images/ideal-movement.jpg"
+            alt="Image 18: The AQHA rulebook describes the western pleasure jog as 'a smooth, ground-covering, two-beat diagonal gait.'"
+          />
+          <p className="text-sm text-gray-600 italic mt-2 text-center">
+            The AQHA rulebook describes the western pleasure jog as "a smooth, ground-covering, two-beat diagonal gait." <sup><Link to="/citations#aqha-western-pleasure" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[9]</Link></sup>
+          </p>
         </div>
       </div>
     </Section>

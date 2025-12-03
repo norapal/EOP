@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import Section from '@/components/Section'
 import HorseImage from '@/components/HorseImage'
 import Lightbox from '@/components/Lightbox'
@@ -28,7 +29,7 @@ export default function Facility() {
               Billy currently resides at the Oppenheimer Family Equine Center on Cal Poly's campus. 
             </p>
             <p className="text-gray-700 leading-relaxed">
-              The Oppenheimer Family Equine Center has multiple barns that are specialized for different disciplines, like a breeding lab, foaling barn, stallion barn, forty-stall barn, and a mare barn. The equine center also has two arenas, five round corrals, and over 150 acres of pastures. The Oppenheimer Family Equine Center is an important unit to Cal Poly as it provides learning opportunities for students, breeding operations, riding teams, and boarding for personal horses. 
+              The Oppenheimer Family Equine Center has multiple barns that are specialized for different disciplines, like a breeding lab, foaling barn, stallion barn, forty-stall barn, and a mare barn. The equine center also has two arenas, five round corrals, and over 150 acres of pastures. The Oppenheimer Family Equine Center is an important unit to Cal Poly as it provides learning opportunities for students, breeding operations, riding teams, and boarding for personal horses <sup><Link to="/citations#oppenheimer-facility" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[7]</Link></sup>. 
             </p>
           </div>
 
@@ -40,7 +41,7 @@ export default function Facility() {
               The Oppenheimer Family Equine Facility is well maintained overall, but there are some areas in the center that could use attention to implement better management practices:
             </p>
             <ol className="list-decimal list-inside space-y-2 text-gray-700">
-              <li>Stall corners and floors are wearing down with lots of use and erosion. These areas need consistent cleaning and repair.</li>
+              <li>Stall corners and floors are wearing down with lots of use and erosion. These areas need consistent cleaning and repair due to buildup of dirt, moss, and organic material.</li>
               <li>Feed bins need maintenance and sanitation improvements. Visible signs of rust and wear are present.</li>
               <li>Water troughs need regular cleanings and upkeeping to make sure the water quality is good. </li>
             </ol>
@@ -54,8 +55,8 @@ export default function Facility() {
             </h2>
             <HorseImage
               src="./images/equine-aerial.jpg"
-              alt="Aerial view of Oppenheimer Family Equine Center showing barns, arenas, and pastures"
-              title="Aerial view of Oppenheimer Family Equine Center facility"
+              alt="Image 3: Aerial view of Oppenheimer Family Equine Center showing barns, arenas, and pastures"
+              title="Image 3: Aerial view of Oppenheimer Family Equine Center facility"
               aspectRatio="aspect-auto"
               onClick={() => setLightboxImage('./images/equine-aerial.jpg')}
             />
@@ -72,8 +73,8 @@ export default function Facility() {
           <div>
             <HorseImage
               src="./images/barn-front.jpg"
-              alt="Front view of the barn at Oppenheimer Family Equine Center"
-              title="Barn exterior showing facility structure"
+              alt="Image 4: Front view of the barn at Oppenheimer Family Equine Center"
+              title="Image 4: Barn exterior showing facility structure"
               aspectRatio="aspect-auto"
               onClick={() => setLightboxImage('./images/barn-front.jpg')}
             />
@@ -81,8 +82,8 @@ export default function Facility() {
           <div>
             <HorseImage
               src="./images/stall-front.jpg"
-              alt="Front view of horse stall"
-              title="Stall front showing design and accessibility"
+              alt="Image 5: Front view of horse stall"
+              title="Image 5: Stall front showing design and accessibility"
               aspectRatio="aspect-auto"
               onClick={() => setLightboxImage('./images/stall-front.jpg')}
             />
@@ -90,8 +91,8 @@ export default function Facility() {
           <div>
             <HorseImage
               src="./images/stall-inside.jpg"
-              alt="Interior view of horse stall"
-              title="Interior stall view showing space and bedding"
+              alt="Image 6: Interior view of horse stall"
+              title="Image 6: Interior stall view showing space and bedding"
               aspectRatio="aspect-auto"
               onClick={() => setLightboxImage('./images/stall-inside.jpg')}
             />
@@ -108,8 +109,8 @@ export default function Facility() {
           <div>
             <HorseImage
               src="./images/gross-corner.jpg"
-              alt="Stall corner showing wear and requiring cleaning"
-              title="Stall corner requiring cleaning and maintenance"
+              alt="Image 7: Stall corner showing wear and requiring cleaning"
+              title="Image 7: Stall corner requiring cleaning and maintenance"
               aspectRatio="aspect-auto"
               onClick={() => setLightboxImage('./images/gross-corner.jpg')}
             />
@@ -117,8 +118,8 @@ export default function Facility() {
           <div>
             <HorseImage
               src="./images/feeding-bin.jpg"
-              alt="Feeding bin requiring maintenance and sanitation"
-              title="Feeding bin needing sanitation improvements"
+              alt="Image 8: Feeding bin requiring maintenance and sanitation"
+              title="Image 8: Feeding bin needing sanitation improvements"
               aspectRatio="aspect-auto"
               onClick={() => setLightboxImage('./images/feeding-bin.jpg')}
             />
@@ -126,8 +127,8 @@ export default function Facility() {
           <div>
             <HorseImage
               src="./images/water-trough.jpg"
-              alt="Water trough requiring cleaning and upkeep"
-              title="Water trough requiring cleaning and upkeep"
+              alt="Image 9: Water trough requiring cleaning and upkeep"
+              title="Image 9: Water trough requiring cleaning and upkeep"
               aspectRatio="aspect-auto"
               onClick={() => setLightboxImage('./images/water-trough.jpg')}
             />
