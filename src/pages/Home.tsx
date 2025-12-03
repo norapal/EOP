@@ -6,11 +6,11 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <div className="relative h-[70vh] min-h-[500px] flex items-center justify-center overflow-hidden">
+      <div className="relative h-[70vh] min-h-[500px] flex items-center justify-center overflow-hidden bg-gray-100">
         <img
           src="./images/billy-front-1.jpg"
           alt="Predictable Cash Flo (Billy) - Chestnut Quarter Horse with white blaze"
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute inset-0 w-full h-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-br from-forest-green/80 to-navy-blue/80">
           <div className="absolute inset-0 bg-texture opacity-10"></div>
