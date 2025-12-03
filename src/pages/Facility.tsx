@@ -29,7 +29,7 @@ export default function Facility() {
               Billy currently resides at the Oppenheimer Family Equine Center on Cal Poly's campus. 
             </p>
             <p className="text-gray-700 leading-relaxed">
-              The Oppenheimer Family Equine Center has multiple barns that are specialized for different disciplines, like a breeding lab, foaling barn, stallion barn, forty-stall barn, and a mare barn. The equine center also has two arenas, five round corrals, and over 150 acres of pastures. The Oppenheimer Family Equine Center is an important unit to Cal Poly as it provides learning opportunities for students, breeding operations, riding teams, and boarding for personal horses <sup><Link to="/citations#oppenheimer-facility" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[7]</Link></sup>. 
+              The Oppenheimer Family Equine Center has multiple barns that are specialized for different disciplines, like a breeding lab, foaling barn, stallion barn, forty-stall barn, and a mare barn. The equine center also has two arenas, five round corrals, and over 150 acres of pastures. The Oppenheimer Family Equine Center is an important unit to Cal Poly as it provides learning opportunities for students, breeding operations, riding teams, and boarding for personal horses <sup><Link to="/citations#oppenheimer-facility" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[5]</Link></sup>. 
             </p>
           </div>
 

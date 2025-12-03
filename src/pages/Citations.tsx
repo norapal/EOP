@@ -62,25 +62,9 @@ export default function Citations() {
               American Quarter Horse Association. "How to Register Your AQHA Foal." <em>American Quarter Horse Association</em>, (n.d.), <a href="https://www.aqha.com/-/how-to-register-your-aqha-foal" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">www.aqha.com/-/how-to-register-your-aqha-foal</a>.
             </p>
           </div>
-          <div id="purina-senior" className="bg-white rounded-soft p-4 transition-all duration-300">
-            <p className="mb-2">
-              <span className="font-semibold text-navy-blue">[4] Senior Feed for Horses</span>
-            </p>
-            <p className="text-sm">
-              Purina. "Senior Feed for Horses: Purina Animal Nutrition." <em>Purina</em>, 3 Nov. 2025, <a href="https://www.purinamills.com/horse-feed/education/detail/feeding-options-for-senior-horses" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">www.purinamills.com/horse-feed/education/detail/feeding-options-for-senior-horses</a>.
-            </p>
-          </div>
-          <div id="dengie-veteran" className="bg-white rounded-soft p-4 transition-all duration-300">
-            <p className="mb-2">
-              <span className="font-semibold text-navy-blue">[5] Feeding the Veteran Horse</span>
-            </p>
-            <p className="text-sm">
-              Dengie Horse Feeds. "Feeding the Veteran Horse | Dengie Horse Feeds." <em>Dengie</em>, (n.d.), <a href="https://dengie.com/nutrition-hub/lifestages-workload/feeding-the-veteran-horse/" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">dengie.com/nutrition-hub/lifestages-workload/feeding-the-veteran-horse/</a>.
-            </p>
-          </div>
           <div id="mclean-learning" className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="mb-2">
-              <span className="font-semibold text-navy-blue">[6] The Application of Learning Theory in Horse Training</span>
+              <span className="font-semibold text-navy-blue">[4] The Application of Learning Theory in Horse Training</span>
             </p>
             <p className="text-sm">
               McLean, Andrew, and Janne Christensen. "The Application of Learning Theory in Horse Training." <em>Science Direct</em>, May 2017, <a href="https://www.sciencedirect.com/science/article/abs/pii/S0168159117300710" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">www.sciencedirect.com/science/article/abs/pii/S0168159117300710</a>.
@@ -88,7 +72,7 @@ export default function Citations() {
           </div>
           <div id="oppenheimer-facility" className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="mb-2">
-              <span className="font-semibold text-navy-blue">[7] Oppenheimer Family Equine Center</span>
+              <span className="font-semibold text-navy-blue">[5] Oppenheimer Family Equine Center</span>
             </p>
             <p className="text-sm">
               Animal Science Department. "Cal Poly." <em>Oppenheimer Family Equine Center</em>, (n.d.), <a href="https://animalscience.calpoly.edu/FacilitiesCenters/equine_center" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">animalscience.calpoly.edu/FacilitiesCenters/equine_center</a>.
@@ -96,7 +80,7 @@ export default function Citations() {
           </div>
           <div id="aqha-balanced-horse" className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="mb-2">
-              <span className="font-semibold text-navy-blue">[8] Balanced Horse Conformation</span>
+              <span className="font-semibold text-navy-blue">[6] Balanced Horse Conformation</span>
             </p>
             <p className="text-sm">
               American Quarter Horse Association. "American Quarter Horse Association." <em>Balanced Horse Conformation</em>, (n.d.), <a href="https://www.aqha.com/-/the-balanced-horse" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">www.aqha.com/-/the-balanced-horse</a>.
@@ -104,7 +88,7 @@ export default function Citations() {
           </div>
           <div id="aqha-western-pleasure" className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="mb-2">
-              <span className="font-semibold text-navy-blue">[9] Showing Western Pleasure: The Basics</span>
+              <span className="font-semibold text-navy-blue">[7] Showing Western Pleasure: The Basics</span>
             </p>
             <p className="text-sm">
               American Quarter Horse Association. "Showing Western Pleasure: The Basics." <em>AQHA</em>, 2020, <a href="https://www.aqha.com/widget/-/showing-western-pleasure-the-basics#:~:text=Lope,horse,s%20conformation%20at%20all%20gaits" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">www.aqha.com/widget/-/showing-western-pleasure-the-basics</a>.
@@ -112,7 +96,7 @@ export default function Citations() {
           </div>
           <div id="navicular-usu" className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="mb-2">
-              <span className="font-semibold text-navy-blue">[10] Equine Navicular Syndrome</span>
+              <span className="font-semibold text-navy-blue">[8] Equine Navicular Syndrome</span>
             </p>
             <p className="text-sm">
               Hoopes, Karl. "Equine Navicular Syndrome." <em>Utah State University Extension</em>, June 2023, <a href="https://extension.usu.edu/equine/research/equine-navicular-syndrome" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">extension.usu.edu/equine/research/equine-navicular-syndrome</a>.
@@ -120,7 +104,7 @@ export default function Citations() {
           </div>
           <div id="navicular-merck" className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="mb-2">
-              <span className="font-semibold text-navy-blue">[11] Navicular Syndrome in Horses</span>
+              <span className="font-semibold text-navy-blue">[9] Navicular Syndrome in Horses</span>
             </p>
             <p className="text-sm">
               Moorman, Valerie J, et al. "Navicular Syndrome in Horses - Musculoskeletal System." <em>Merck Veterinary Manual</em>, June 2024, <a href="https://www.merckvetmanual.com/musculoskeletal-system/disorders-of-the-foot-in-horses/navicular-syndrome-in-horses" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">www.merckvetmanual.com/musculoskeletal-system/disorders-of-the-foot-in-horses/navicular-syndrome-in-horses</a>.
@@ -128,7 +112,7 @@ export default function Citations() {
           </div>
           <div id="aaep-lameness" className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="mb-2">
-              <span className="font-semibold text-navy-blue">[12] Client Education Presentation: Lameness Exams</span>
+              <span className="font-semibold text-navy-blue">[10] Client Education Presentation: Lameness Exams</span>
             </p>
             <p className="text-sm">
               American Association of Equine Practitioners. "Client Education Presentation: Lameness Exams." <em>AAEP</em>, 30 May 2025, <a href="https://aaep.org/resource/client-education-presentation-lameness-exams/" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">aaep.org/resource/client-education-presentation-lameness-exams/</a>.
@@ -136,7 +120,7 @@ export default function Citations() {
           </div>
           <div id="vt-physical-exam" className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="mb-2">
-              <span className="font-semibold text-navy-blue">[13] SOP: Equine Physical Exam</span>
+              <span className="font-semibold text-navy-blue">[11] SOP: Equine Physical Exam</span>
             </p>
             <p className="text-sm">
               Virginia Tech. "SOP: Equine Physical Exam." University Veterinarian and Animal Resources, 2017, <a href="https://www.research.vt.edu/content/dam/ouv_vt_edu/sops/large-animal/sop-equine-physical-exam.pdf" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">www.research.vt.edu/content/dam/ouv_vt_edu/sops/large-animal/sop-equine-physical-exam.pdf</a>.
@@ -144,7 +128,7 @@ export default function Citations() {
           </div>
           <div id="iowa-state-senior" className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="mb-2">
-              <span className="font-semibold text-navy-blue">[14] Feeding the Senior Horse</span>
+              <span className="font-semibold text-navy-blue">[12] Feeding the Senior Horse</span>
             </p>
             <p className="text-sm">
               Iowa State University. "Feeding the Senior Horse." <em>Iowa State University Extension and Outreach</em>, (n.d.), <a href="https://www.extension.iastate.edu/equine/feeding-senior-horse" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">www.extension.iastate.edu/equine/feeding-senior-horse</a>.
@@ -152,7 +136,7 @@ export default function Citations() {
           </div>
           <div id="iowa-state-bcs" className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="mb-2">
-              <span className="font-semibold text-navy-blue">[15] The Body Condition Score</span>
+              <span className="font-semibold text-navy-blue">[13] The Body Condition Score</span>
             </p>
             <p className="text-sm">
               Iowa State University. "The Body Condition Score." <em>Iowa State University Extension and Outreach</em>, (n.d.), <a href="https://www.extension.iastate.edu/equine/body-condition-score" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">www.extension.iastate.edu/equine/body-condition-score</a>.
@@ -160,7 +144,7 @@ export default function Citations() {
           </div>
           <div id="dr-gray-flax" className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="mb-2">
-              <span className="font-semibold text-navy-blue">[16] Benefits, Safety and Uses of Flax Seed for Horses</span>
+              <span className="font-semibold text-navy-blue">[14] Benefits, Safety and Uses of Flax Seed for Horses</span>
             </p>
             <p className="text-sm">
               Dr. Gray. "Benefits, Safety and Uses of Flax Seed for Horses - Smartpak." <em>SmartPak Equine</em>, 2025, <a href="https://www.smartpakequine.com/learn-health/is-flax-seed-safe-to-use-in-horses?srsltid=AfmBOoouVcOvQcDvIjiixQgq0Np79ytxgFWbJYQH-hwajiWjkPguOz6w" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">www.smartpakequine.com/learn-health/is-flax-seed-safe-to-use-in-horses</a>.
@@ -168,10 +152,58 @@ export default function Citations() {
           </div>
           <div id="smartpak-joint" className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="mb-2">
-              <span className="font-semibold text-navy-blue">[17] Horse Owner's Guide to Joint Supplements</span>
+              <span className="font-semibold text-navy-blue">[15] Horse Owner's Guide to Joint Supplements</span>
             </p>
             <p className="text-sm">
               SmartPak Equine. "Horse Owner's Guide to Joint Supplements." <em>SmartPak Equine</em>, 2023, <a href="https://www.smartpakequine.com/learn-health/why-feed-horse-joint-supplements?g_acctid=312-013-2860&g_adgroupid=120143888637&g_adid=780062827118&g_adtype=search&g_campaign=google_nb_dsasearch_3p_supplements_na_supplements_na_na_us_sr_ep&g_campaignid=12646386862&g_keyword=&g_keywordid=dsa-439585516007&g_network=g&utm_campaign=Joint&utm_content=google_nb_dsasearch_3p_supplements_na_supplements_na_na_us_sr_ep&utm_medium=cpc&utm_source=google&gclsrc=aw.ds&gad_source=1&gad_campaignid=12646386862&gbraid=0AAAAAD_uTlSUVN9FkeS78y6qp9ZoQylaE&gclid=CjwKCAiAlrXJBhBAEiwA-5pgwiDwi-nzeal_205m1IXJLRvRgMAQoTNPJ8OIrXkvLfC-mDzWVPHINxoC3QUQAvD_BwE" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">www.smartpakequine.com/learn-health/why-feed-horse-joint-supplements</a>.
+            </p>
+          </div>
+          <div id="aaep-vaccination" className="bg-white rounded-soft p-4 transition-all duration-300">
+            <p className="mb-2">
+              <span className="font-semibold text-navy-blue">[16] Vaccination Guidelines</span>
+            </p>
+            <p className="text-sm">
+              American Association of Equine Practitioners. "Vaccination Guidelines." <em>AAEP</em>, (n.d.), <a href="https://aaep.org/guidelines-resources/vaccination-guidelines/" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">aaep.org/guidelines-resources/vaccination-guidelines/</a>.
+            </p>
+          </div>
+          <div id="smartpak-deworming" className="bg-white rounded-soft p-4 transition-all duration-300">
+            <p className="mb-2">
+              <span className="font-semibold text-navy-blue">[17] Modern Guide to Horse Deworming - Equine Parasite Control</span>
+            </p>
+            <p className="text-sm">
+              SmartPak Equine. "Modern Guide to Horse Deworming - Equine Parasite Control." <em>SmartPak Equine</em>, 2024, <a href="https://www.smartpakequine.com/learn-health/the-modern-guide-to-horse-deworming?srsltid=AfmBOoqu34bZzMGQ9o9p37whhCP3lfWzRPLaKdN2xQRw0o9Fp_7Y4agF" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">www.smartpakequine.com/learn-health/the-modern-guide-to-horse-deworming</a>.
+            </p>
+          </div>
+          <div id="aaep-infectious" className="bg-white rounded-soft p-4 transition-all duration-300">
+            <p className="mb-2">
+              <span className="font-semibold text-navy-blue">[18] Infectious Disease Control</span>
+            </p>
+            <p className="text-sm">
+              American Association of Equine Practitioners. "Infectious Disease Control." <em>AAEP</em>, (n.d.), <a href="https://aaep.org/guidelines-resources/vaccination-guidelines/infectious-disease-control/" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">aaep.org/guidelines-resources/vaccination-guidelines/infectious-disease-control/</a>.
+            </p>
+          </div>
+          <div id="aaep-biosecurity" className="bg-white rounded-soft p-4 transition-all duration-300">
+            <p className="mb-2">
+              <span className="font-semibold text-navy-blue">[19] General Biosecurity Guidelines</span>
+            </p>
+            <p className="text-sm">
+              AAEP. "General Biosecurity Guidelines." <em>AAEP Biosecurity Guidelines</em>, 2022, <a href="https://aaep.org/wp-content/uploads/2022/01/AAEP-General-Biosecurity-Guidelines_1.pdf" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">aaep.org/wp-content/uploads/2022/01/AAEP-General-Biosecurity-Guidelines_1.pdf</a>.
+            </p>
+          </div>
+          <div id="ker-genetic" className="bg-white rounded-soft p-4 transition-all duration-300">
+            <p className="mb-2">
+              <span className="font-semibold text-navy-blue">[20] Common Genetic Diseases in Quarter Horses</span>
+            </p>
+            <p className="text-sm">
+              Kentucky Equine Research Staff. "Common Genetic Diseases in Quarter Horses - Kentucky Equine Research." <em>Equinews Nutrition and Health Daily</em>, 2013, <a href="https://ker.com/equinews/common-genetic-diseases-quarter-horses/" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">ker.com/equinews/common-genetic-diseases-quarter-horses/</a>.
+            </p>
+          </div>
+          <div id="aqha-dna" className="bg-white rounded-soft p-4 transition-all duration-300">
+            <p className="mb-2">
+              <span className="font-semibold text-navy-blue">[21] DNA and Parentage Verification</span>
+            </p>
+            <p className="text-sm">
+              American Quarter Horse Association. "DNA and Parentage Verification." <em>AQHA</em>, 2018, <a href="https://www.aqha.com/widget/-/dna-and-parentage-verification" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">www.aqha.com/widget/-/dna-and-parentage-verification</a>.
             </p>
           </div>
           <div className="bg-white rounded-soft p-4">

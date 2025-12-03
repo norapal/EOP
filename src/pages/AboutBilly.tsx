@@ -182,21 +182,21 @@ The American Quarter Horse has become the largest breed association in the world
             <div>
               <h3 className="font-semibold text-navy-blue text-lg mb-2">Overview:</h3>
               <p className="leading-relaxed">
-                The pressure and release method is based on using negative reinforcement for training. When the horse performs the desired behavior like moving forward or trotting, the stimulus is removed. The removal of pressure is a reinforcer that increases the horse's association with the requested response <sup><Link to="/citations#mclean-learning" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[6]</Link></sup>.
+                The pressure and release method is based on using negative reinforcement for training. When the horse performs the desired behavior like moving forward or trotting, the stimulus is removed. The removal of pressure is a reinforcer that increases the horse's association with the requested response <sup><Link to="/citations#mclean-learning" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[4]</Link></sup>.
               </p>
             </div>
 
             <div>
               <h3 className="font-semibold text-navy-blue text-lg mb-2">Stimuli:</h3>
               <p className="leading-relaxed">
-                With Billy, the verbal cue "walk" along with a slight guide of his reins and forward movement from the handler can be the initial stimulus. If Billy stays put and does not follow the command within a few seconds, apply a flag that pressures the horse. Wave the flag near the horse's hindquarters to create slight discomfort from the horse to pressure forward movement <sup><Link to="/citations#mclean-learning" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[6]</Link></sup>.
+                With Billy, the verbal cue "walk" along with a slight guide of his reins and forward movement from the handler can be the initial stimulus. If Billy stays put and does not follow the command within a few seconds, apply a flag that pressures the horse. Wave the flag near the horse's hindquarters to create slight discomfort from the horse to pressure forward movement <sup><Link to="/citations#mclean-learning" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[4]</Link></sup>.
               </p>
             </div>
 
             <div>
               <h3 className="font-semibold text-navy-blue text-lg mb-2">Response and Reinforcement:</h3>
               <p className="leading-relaxed">
-                When Billy takes a step forward (response), immediately remove the flag movement and drop the flag to your side. The removal of the flag that causes Billy discomfort is an example of negative reinforcement, which is characterized by rewarding Billy for forward movement by removing this uncomfortable stimulus <sup><Link to="/citations#mclean-learning" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[6]</Link></sup>.
+                When Billy takes a step forward (response), immediately remove the flag movement and drop the flag to your side. The removal of the flag that causes Billy discomfort is an example of negative reinforcement, which is characterized by rewarding Billy for forward movement by removing this uncomfortable stimulus <sup><Link to="/citations#mclean-learning" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[4]</Link></sup>.
               </p>
             </div>
 
@@ -204,13 +204,13 @@ The American Quarter Horse has become the largest breed association in the world
               <h3 className="font-semibold text-navy-blue text-lg mb-2">Critical Success Factors:</h3>
               <div className="space-y-3 leading-relaxed">
                 <p>
-                  <span className="font-semibold">Timing:</span> Pressure and release training is only successful when the timing of it is correct. The release of the stimulus must happen immediately (a few seconds) after the correct response is performed so that Billy can associate his movement with the release of this uncomfortable pressure <sup><Link to="/citations#mclean-learning" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[6]</Link></sup>.
+                  <span className="font-semibold">Timing:</span> Pressure and release training is only successful when the timing of it is correct. The release of the stimulus must happen immediately (a few seconds) after the correct response is performed so that Billy can associate his movement with the release of this uncomfortable pressure <sup><Link to="/citations#mclean-learning" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[4]</Link></sup>.
                 </p>
                 <p>
-                  <span className="font-semibold">Repetition:</span> Release and pressure will only be successful with repetition. Billy will be able to learn the relationship of moving forward, making the uncomfortable stimulus stop. This is escape learning and avoidance conditioning <sup><Link to="/citations#mclean-learning" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[6]</Link></sup>.
+                  <span className="font-semibold">Repetition:</span> Release and pressure will only be successful with repetition. Billy will be able to learn the relationship of moving forward, making the uncomfortable stimulus stop. This is escape learning and avoidance conditioning <sup><Link to="/citations#mclean-learning" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[4]</Link></sup>.
                 </p>
                 <p>
-                  <span className="font-semibold">Consistency:</span> Horses thrive off a predictable pattern that prevents confusion. It helps Billy clearly associate the exact behavior that is asked. You must begin with a simple pressure like a verbal cue and advance it with the flag and an immediate release <sup><Link to="/citations#mclean-learning" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[6]</Link></sup>.
+                  <span className="font-semibold">Consistency:</span> Horses thrive off a predictable pattern that prevents confusion. It helps Billy clearly associate the exact behavior that is asked. You must begin with a simple pressure like a verbal cue and advance it with the flag and an immediate release <sup><Link to="/citations#mclean-learning" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[4]</Link></sup>.
                 </p>
               </div>
             </div>
