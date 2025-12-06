@@ -53,7 +53,6 @@ export default function Home() {
             { path: '/performance', title: 'Performance', desc: 'Movement analysis and gait quality assessment' },
             { path: '/lameness', title: 'Lameness', desc: 'Lameness evaluation and detection methodology' },
             { path: '/health', title: 'Health & Wellness', desc: 'Wellness program, diet, and preventive care' },
-            { path: '/pedigree', title: 'Pedigree', desc: 'Genetic analysis and disorder risk assessment' },
             { path: '/budget', title: 'Budget', desc: 'Annual expense breakdown and cost analysis' },
             { path: '/citations', title: 'Citations', desc: 'References and sources' },
           ].map((item) => (

@@ -105,7 +105,7 @@ The American Quarter Horse has become the largest breed association in the world
                 src="./images/billy-front-1.jpg"
                 alt="Image 1: Front view of Billy showing chestnut coat, white blaze, and white socks"
                 title="Image 1: Front view showing color and markings"
-                aspectRatio="aspect-auto"
+                aspectRatio="aspect-[3/4]"
                 onClick={() => setLightboxImage('./images/billy-front-1.jpg')}
               />
             </div>
@@ -117,7 +117,7 @@ The American Quarter Horse has become the largest breed association in the world
                 src="./images/billy-side-1.jpg"
                 alt="Image 2: Side profile view of Billy showing conformation"
                 title="Image 2: Lateral view for conformation assessment"
-                aspectRatio="aspect-auto"
+                aspectRatio="aspect-[4/3]"
                 onClick={() => setLightboxImage('./images/billy-side-1.jpg')}
               />
             </div>
@@ -158,6 +158,17 @@ The American Quarter Horse has become the largest breed association in the world
           <p className="text-gray-700 leading-relaxed mt-6">
             <span className="font-semibold text-navy-blue">Registry Type:</span> Closed
           </p>
+          <div className="mt-6 max-w-sm mx-auto">
+            <HorseImage
+              src="./images/rule-handbook.jpg"
+              alt="Image 3: Cover of the AQHA Official Handbook of Rules and Regulations"
+              aspectRatio="aspect-auto"
+              onClick={() => setLightboxImage('./images/rule-handbook.jpg')}
+            />
+            <p className="text-sm text-gray-600 italic mt-2 text-center">
+              Image 3: Cover of the AQHA Official Handbook of Rules and Regulations <sup><Link to="/citations#aqha-rulebook-img" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
+            </p>
+          </div>
         </div>
 
         {/* Behavior Modification Technique - Full Width */}
@@ -224,7 +235,7 @@ The American Quarter Horse has become the largest breed association in the world
           </div>
           <div className="mt-6">
             <label className="block text-sm font-medium text-navy-blue mb-2">
-              Video 1: Behavior modification demonstration
+              <Link to="/citations#video-behavior-mod" className="text-navy-blue underline hover:text-forest-green transition-colors">Video 1</Link>: Behavior modification demonstration
             </label>
             <div className="aspect-video bg-gray-100 rounded-soft overflow-hidden">
               <iframe

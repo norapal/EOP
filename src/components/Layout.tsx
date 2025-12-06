@@ -18,7 +18,6 @@ export default function Layout({ children }: LayoutProps) {
     { path: '/performance', label: 'Performance' },
     { path: '/lameness', label: 'Lameness' },
     { path: '/health', label: 'Health & Wellness' },
-    { path: '/pedigree', label: 'Pedigree' },
     { path: '/budget', label: 'Budget' },
     { path: '/citations', label: 'Citations' },
   ]

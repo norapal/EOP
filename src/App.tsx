@@ -8,7 +8,6 @@ import Conformation from './pages/Conformation'
 import Performance from './pages/Performance'
 import Lameness from './pages/Lameness'
 import HealthWellness from './pages/HealthWellness'
-import Pedigree from './pages/Pedigree'
 import Budget from './pages/Budget'
 import Citations from './pages/Citations'
 
@@ -25,7 +24,6 @@ function App() {
           <Route path="/performance" element={<Performance />} />
           <Route path="/lameness" element={<Lameness />} />
           <Route path="/health" element={<HealthWellness />} />
-          <Route path="/pedigree" element={<Pedigree />} />
           <Route path="/budget" element={<Budget />} />
           <Route path="/citations" element={<Citations />} />
         </Routes>

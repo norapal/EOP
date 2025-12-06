@@ -206,6 +206,94 @@ export default function Citations() {
               American Quarter Horse Association. "DNA and Parentage Verification." <em>AQHA</em>, 2018, <a href="https://www.aqha.com/widget/-/dna-and-parentage-verification" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">www.aqha.com/widget/-/dna-and-parentage-verification</a>.
             </p>
           </div>
+          <div id="umn-senior-horse" className="bg-white rounded-soft p-4 transition-all duration-300">
+            <p className="mb-2">
+              <span className="font-semibold text-navy-blue">[22] Caring for Your Senior Horse</span>
+            </p>
+            <p className="text-sm">
+              University of Minnesota Extension. "Caring for Your Senior Horse." <em>Extension at the University of Minnesota</em>, 2024, <a href="https://extension.umn.edu/horse-health/caring-your-senior-horse" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">extension.umn.edu/horse-health/caring-your-senior-horse</a>.
+            </p>
+          </div>
+          <div id="calpoly-sales" className="bg-white rounded-soft p-4 transition-all duration-300">
+            <p className="mb-2">
+              <span className="font-semibold text-navy-blue">[23] Sales & Services: Cal Poly Horses</span>
+            </p>
+            <p className="text-sm">
+              Cal Poly. "Sales & Services: Cal Poly Horses." <em>Performance Horse Sales</em>, (n.d.), <a href="https://ranchhorse.calpoly.edu/content/sales" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">ranchhorse.calpoly.edu/content/sales</a>.
+            </p>
+          </div>
+          <div id="pbs-flaxseed" className="bg-white rounded-soft p-4 transition-all duration-300">
+            <p className="mb-2">
+              <span className="font-semibold text-navy-blue">[24] Ground Flax Seed for Horses</span>
+            </p>
+            <p className="text-sm">
+              PBS Animal Health. "Ground Flax Seed for Horses." <em>PBS Animal Health</em>, (n.d.), <a href="https://www.pbsanimalhealth.com/ground-flax-seed-for-horses/p/14871/?v=2" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">www.pbsanimalhealth.com/ground-flax-seed-for-horses/p/14871/?v=2</a>.
+            </p>
+          </div>
+          <div id="platinum-joint" className="bg-white rounded-soft p-4 transition-all duration-300">
+            <p className="mb-2">
+              <span className="font-semibold text-navy-blue">[25] Joint Supplements for Horses: Equine Joint Support</span>
+            </p>
+            <p className="text-sm">
+              Platinum Performance. "Joint Supplements for Horses: Equine Joint Support: Hyaluronic Acid." <em>Platinum Performance</em>, (n.d.), <a href="https://www.platinumperformance.com/platinum-performance-cj/epcjg--kepppcj--set.html" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">www.platinumperformance.com/platinum-performance-cj/epcjg--kepppcj--set.html</a>.
+            </p>
+          </div>
+          <div id="century-vaccine" className="bg-white rounded-soft p-4 transition-all duration-300">
+            <p className="mb-2">
+              <span className="font-semibold text-navy-blue">[26] 2022 Vaccine Clinic</span>
+            </p>
+            <p className="text-sm">
+              "2022 Vaccine Clinic." <em>Century Equine Veterinary Services</em>, 2022, <a href="https://centuryequine.com/2020-vaccine-clinic/" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">centuryequine.com/2020-vaccine-clinic/</a>.
+            </p>
+          </div>
+          <div id="tractor-ivermectin" className="bg-white rounded-soft p-4 transition-all duration-300">
+            <p className="mb-2">
+              <span className="font-semibold text-navy-blue">[27] Equimax Ivermectin/Praziquantel Horse Paste</span>
+            </p>
+            <p className="text-sm">
+              Tractor Supply Co. <em>Equimax Ivermectin/Praziquantel Horse Paste</em>, 2025, <a href="https://www.tractorsupply.com/tsc/product/equimax-ivermectin-187-praiquantel-1403-paste-642-g" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">www.tractorsupply.com/tsc/product/equimax-ivermectin-187-praiquantel-1403-paste-642-g</a>.
+            </p>
+          </div>
+          <div id="tractor-quest" className="bg-white rounded-soft p-4 transition-all duration-300">
+            <p className="mb-2">
+              <span className="font-semibold text-navy-blue">[28] Quest Plus Gel Horse Dewormer and Boticide</span>
+            </p>
+            <p className="text-sm">
+              Tractor Supply Co. "Quest Plus Gel Horse Dewormer and Boticide, 0.5 Oz." <em>Tractor Supply Co</em>, 2025, <a href="https://www.tractorsupply.com/tsc/product/quest-plus-gel" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">www.tractorsupply.com/tsc/product/quest-plus-gel</a>.
+            </p>
+          </div>
+          <div id="foundation-clinic" className="bg-white rounded-soft p-4 transition-all duration-300">
+            <p className="mb-2">
+              <span className="font-semibold text-navy-blue">[29] Foundation Equine Clinic Services</span>
+            </p>
+            <p className="text-sm">
+              Foundation Equine Clinic. "Services." <em>Foundation Equine Clinic</em>, (n.d.), <a href="https://www.foundationequineclinic.com/services" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">www.foundationequineclinic.com/services</a>.
+            </p>
+          </div>
+          <div id="dixie-farrier" className="bg-white rounded-soft p-4 transition-all duration-300">
+            <p className="mb-2">
+              <span className="font-semibold text-navy-blue">[30] Dixie's Farrier Service Pricing</span>
+            </p>
+            <p className="text-sm">
+              Dixie's Farrier Service. "Pricing." <em>Dixie's Farrier Service</em>, 2024, <a href="https://www.dixiesfarrierservice.com/pricing/" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">www.dixiesfarrierservice.com/pricing/</a>.
+            </p>
+          </div>
+          <div id="usu-hoof-care" className="bg-white rounded-soft p-4 transition-all duration-300">
+            <p className="mb-2">
+              <span className="font-semibold text-navy-blue">[31] Proper Basic Hoof Care</span>
+            </p>
+            <p className="text-sm">
+              Utah State University. "Proper Basic Hoof Care." <em>USU</em>, 14 Dec. 2023, <a href="https://extension.usu.edu/equine/research/proper-basic-hoof-care" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">extension.usu.edu/equine/research/proper-basic-hoof-care</a>.
+            </p>
+          </div>
+          <div id="aaep-fee-survey" className="bg-white rounded-soft p-4 transition-all duration-300">
+            <p className="mb-2">
+              <span className="font-semibold text-navy-blue">[32] Equine Veterinary Fee Survey</span>
+            </p>
+            <p className="text-sm">
+              American Association of Equine Practitioners. "Equine Veterinary Fee Survey: DecadeOne and Veterinary Management Group 16 Data." <em>American Association of Equine Practitioners</em>, 2024, <a href="https://aaep.org/wp-content/uploads/2024/02/Decade-One-VMG-Combined-Fee-Survey.pdf" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">aaep.org/wp-content/uploads/2024/02/Decade-One-VMG-Combined-Fee-Survey.pdf</a>.
+            </p>
+          </div>
           <div className="bg-white rounded-soft p-4">
             <p className="mb-2">
               <span className="font-semibold text-navy-blue">[Additional Citation]</span>
@@ -230,27 +318,32 @@ export default function Citations() {
         </div>
       </div>
 
-      <div className="bg-white rounded-softer p-6 border border-gray-200">
+      <div id="image-video-sources" className="bg-white rounded-softer p-6 border border-gray-200">
         <h2 className="text-2xl font-serif text-forest-green mb-4">
           Image & Video Sources
         </h2>
         <div className="space-y-3 text-gray-700">
-          <div>
-            <p className="font-semibold text-navy-blue mb-1">Image 1: [Description]</p>
-            <p className="text-sm text-gray-600">Source: [URL or citation]</p>
+          <div id="video-behavior-mod" className="bg-white rounded-soft p-4 transition-all duration-300">
+            <p className="font-semibold text-navy-blue mb-1">Video 1: Behavior Modification Demonstration</p>
+            <p className="text-sm text-gray-600">Source: <a href="https://www.youtube.com/embed/JwoyxETo-t0?start=270" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">https://www.youtube.com/embed/JwoyxETo-t0?start=270</a></p>
           </div>
-          <div>
-            <p className="font-semibold text-navy-blue mb-1">Image 2: [Description]</p>
-            <p className="text-sm text-gray-600">Source: [URL or citation]</p>
+          <div id="aqha-rulebook-img" className="bg-white rounded-soft p-4 transition-all duration-300">
+            <p className="font-semibold text-navy-blue mb-1">AQHA Rulebook Image</p>
+            <p className="text-sm text-gray-600">Source: <a href="https://www.aqha.com/aqha-rulebook" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">https://www.aqha.com/aqha-rulebook</a></p>
           </div>
-          <div>
-            <p className="font-semibold text-navy-blue mb-1">Video 1: [Description]</p>
-            <p className="text-sm text-gray-600">Source: [URL or citation]</p>
+          <div id="what-is-quarter-horse-img" className="bg-white rounded-soft p-4 transition-all duration-300">
+            <p className="font-semibold text-navy-blue mb-1">What is a Quarter Horse - Ideal Conformation Image</p>
+            <p className="text-sm text-gray-600">Source: <a href="https://www.aqha.com/-/what-is-a-quarter-horse" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">https://www.aqha.com/-/what-is-a-quarter-horse</a></p>
+          </div>
+          <div id="balanced-horse-ratios-img" className="bg-white rounded-soft p-4 transition-all duration-300">
+            <p className="font-semibold text-navy-blue mb-1">Balanced Horse Ratio Images (Sloping Shoulder, Neck, Top/Bottom Line, Square Hip)</p>
+            <p className="text-sm text-gray-600">Source: <a href="https://www.aqha.com/-/the-balanced-horse" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">https://www.aqha.com/-/the-balanced-horse</a></p>
+          </div>
+          <div id="ideal-legs-img" className="bg-white rounded-soft p-4 transition-all duration-300">
+            <p className="font-semibold text-navy-blue mb-1">Ideal Quarter Horse Front Legs</p>
+            <p className="text-sm text-gray-600">Source: <a href="https://www.aqha.com/-/you-be-the-judge-front-legs" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">https://www.aqha.com/-/you-be-the-judge-front-legs</a></p>
           </div>
         </div>
-        <p className="mt-4 text-sm text-gray-600 italic">
-          Continue listing all images and videos used throughout the portfolio with their sources.
-        </p>
       </div>
 
       <div className="bg-cream rounded-softer p-6 mt-8">

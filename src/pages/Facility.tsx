@@ -55,9 +55,9 @@ export default function Facility() {
             </h2>
             <HorseImage
               src="./images/equine-aerial.jpg"
-              alt="Image 3: Aerial view of Oppenheimer Family Equine Center showing barns, arenas, and pastures"
-              title="Image 3: Aerial view of Oppenheimer Family Equine Center facility"
-              aspectRatio="aspect-auto"
+              alt="Image 4: Aerial view of Oppenheimer Family Equine Center showing barns, arenas, and pastures"
+              title="Image 4: Aerial view of Oppenheimer Family Equine Center facility"
+              aspectRatio="aspect-video"
               onClick={() => setLightboxImage('./images/equine-aerial.jpg')}
             />
           </div>
@@ -73,27 +73,27 @@ export default function Facility() {
           <div>
             <HorseImage
               src="./images/barn-front.jpg"
-              alt="Image 4: Front view of the barn at Oppenheimer Family Equine Center"
-              title="Image 4: Barn exterior showing facility structure"
-              aspectRatio="aspect-auto"
+              alt="Image 5: Front view of the barn at Oppenheimer Family Equine Center"
+              title="Image 5: Barn exterior showing facility structure"
+              aspectRatio="aspect-[4/3]"
               onClick={() => setLightboxImage('./images/barn-front.jpg')}
             />
           </div>
           <div>
             <HorseImage
               src="./images/stall-front.jpg"
-              alt="Image 5: Front view of horse stall"
-              title="Image 5: Stall front showing design and accessibility"
-              aspectRatio="aspect-auto"
+              alt="Image 6: Front view of horse stall"
+              title="Image 6: Stall front showing design and accessibility"
+              aspectRatio="aspect-[3/4]"
               onClick={() => setLightboxImage('./images/stall-front.jpg')}
             />
           </div>
           <div>
             <HorseImage
               src="./images/stall-inside.jpg"
-              alt="Image 6: Interior view of horse stall"
-              title="Image 6: Interior stall view showing space and bedding"
-              aspectRatio="aspect-auto"
+              alt="Image 7: Interior view of horse stall"
+              title="Image 7: Interior stall view showing space and bedding"
+              aspectRatio="aspect-[3/4]"
               onClick={() => setLightboxImage('./images/stall-inside.jpg')}
             />
           </div>
@@ -109,27 +109,27 @@ export default function Facility() {
           <div>
             <HorseImage
               src="./images/gross-corner.jpg"
-              alt="Image 7: Stall corner showing wear and requiring cleaning"
-              title="Image 7: Stall corner requiring cleaning and maintenance"
-              aspectRatio="aspect-auto"
+              alt="Image 8: Stall corner showing wear and requiring cleaning"
+              title="Image 8: Stall corner requiring cleaning and maintenance"
+              aspectRatio="aspect-[4/3]"
               onClick={() => setLightboxImage('./images/gross-corner.jpg')}
             />
           </div>
           <div>
             <HorseImage
               src="./images/feeding-bin.jpg"
-              alt="Image 8: Feeding bin requiring maintenance and sanitation"
-              title="Image 8: Feeding bin needing sanitation improvements"
-              aspectRatio="aspect-auto"
+              alt="Image 9: Feeding bin requiring maintenance and sanitation"
+              title="Image 9: Feeding bin needing sanitation improvements"
+              aspectRatio="aspect-[4/3]"
               onClick={() => setLightboxImage('./images/feeding-bin.jpg')}
             />
           </div>
           <div>
             <HorseImage
               src="./images/water-trough.jpg"
-              alt="Image 9: Water trough requiring cleaning and upkeep"
-              title="Image 9: Water trough requiring cleaning and upkeep"
-              aspectRatio="aspect-auto"
+              alt="Image 10: Water trough requiring cleaning and upkeep"
+              title="Image 10: Water trough requiring cleaning and upkeep"
+              aspectRatio="aspect-[4/3]"
               onClick={() => setLightboxImage('./images/water-trough.jpg')}
             />
           </div>

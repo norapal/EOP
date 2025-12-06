@@ -147,7 +147,7 @@ export default function HealthWellness() {
             </p>
             
             <p className="leading-relaxed">
-              Billy's diet includes one scoop of a joint supplement that promotes his cartilage health and joint function to help manage his arthritis and navicular syndrome. This joint supplement contains glucosamine, chondroitin sulfate, and MSM. The joint supplement provides proactive joint support that is very helpful for senior horses <sup><Link to="/citations#smartpak-joint" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[15]</Link></sup>. Glucosamine and chondroitin sulfate promote joint and cartilage health, while the MSM helps reduce the wear of joint tissues that are caused by exercise <sup><Link to="/citations#smartpak-joint" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[15]</Link></sup>. Additionally, they provide antioxidant support <sup><Link to="/citations#smartpak-joint" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[15]</Link></sup>.
+              Billy's diet includes 2.5 scoops of a joint supplement that promotes his cartilage health and joint function to help manage his pain from lameness. This joint supplement contains MSM, hylauranic acid, boswellia serrata, ASU, and cetyl myristoleate <sup><Link to="/citations#platinum-joint" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[25]</Link></sup>. MSM helps reduce the wear of joint tissues that are caused by exercise. Hylauronic acid reduces the friction between bones during movement, boswellia serrata reduces inflammation, ASU maintains the health of the cartilage, and cetyl myristoleate also helps with inflammation <sup><Link to="/citations#platinum-joint" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[25]</Link></sup>.
             </p>
           </div>
         </div>
@@ -168,9 +168,9 @@ export default function HealthWellness() {
             </label>
             <HorseImage
               src="./images/billy-side-1.jpg"
-              alt="Image 19: Side profile view of Billy for body condition score assessment"
-              title="Image 19: Side view for BCS assessment showing body condition"
-              aspectRatio="aspect-auto"
+              alt="Image 25: Side profile view of Billy for body condition score assessment"
+              title="Image 25: Side view for BCS assessment showing body condition"
+              aspectRatio="aspect-[4/3]"
             />
           </div>
           <div>
