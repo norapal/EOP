@@ -1,9 +1,20 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Section from '@/components/Section'
+import HorseImage from '@/components/HorseImage'
+import Lightbox from '@/components/Lightbox'
 
 export default function Lameness() {
+  const [lightboxImage, setLightboxImage] = useState<string | null>(null)
+
   return (
     <Section className="bg-white">
+      {lightboxImage && (
+        <Lightbox
+          image={lightboxImage}
+          onClose={() => setLightboxImage(null)}
+        />
+      )}
       <div className="mb-8">
         <h1 className="text-4xl font-serif text-forest-green mb-4">
           Lameness Evaluation
@@ -42,6 +53,9 @@ export default function Lameness() {
             <p className="text-sm text-gray-600 mt-2 text-center">
               Right forelimb lameness at trot showing head bobbing and shortened stride
             </p>
+            <p className="text-sm text-gray-600 italic mt-1 text-center">
+              <sup><Link to="/citations#self-video-right-frontlimb-lameness" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Video Source]</Link></sup>
+            </p>
           </div>
           <div>
             <video 
@@ -56,6 +70,9 @@ export default function Lameness() {
             <p className="text-sm text-gray-600 mt-2 text-center">
               Right hind limb lameness visible during movement
             </p>
+            <p className="text-sm text-gray-600 italic mt-1 text-center">
+              <sup><Link to="/citations#self-video-right-hindlimb-lameness" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Video Source]</Link></sup>
+            </p>
           </div>
           <div>
             <video 
@@ -69,6 +86,9 @@ export default function Lameness() {
             </video>
             <p className="text-sm text-gray-600 mt-2 text-center">
               Circling movement showing lameness more apparent in turns
+            </p>
+            <p className="text-sm text-gray-600 italic mt-1 text-center">
+              <sup><Link to="/citations#self-video-billy-circle" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Video Source]</Link></sup>
             </p>
           </div>
         </div>
@@ -150,7 +170,44 @@ export default function Lameness() {
           </div>
           <div>
             <h3 className="font-semibold text-navy-blue mb-2">Limitations:</h3>
-            <p>Lameness evaluations performed by owners have limitations. Subtle lamenesses in horses can be hard to identify without experience or proper technique. Determining the exact location of lameness is also very difficult. A veterinarian, MRI, or CT scans are typically the only accurate ways to determine exact locations of lameness or conditions like navicular syndrome or degenerative joint disease. Moreover, when lameness is detected in a horse it is important to seek a veterinarian's guidance to create a treatment plan that best suits the horse <sup><Link to="/citations#aaep-lameness" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[10]</Link></sup>.</p>
+            <p>Lameness evaluations performed by owners have limitations. Subtle lamenesses in horses can be hard to identify without experience or proper technique. Determining the exact location of lameness is also very difficult. A veterinarian, MRI, or CT scans are typically the only accurate ways to determine exact locations of lameness or conditions like navicular syndrome or degenerative joint disease. Moreover, when lameness is detected in a horse it is important to seek a veterinarian's guidance to create a treatment plan that best suits the horse <sup><Link to="/citations#aaep-lameness" target="_blank" rel="noopener noreferrer" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[10]</Link></sup>.</p>
+          </div>
+        </div>
+
+        {/* Lameness Detection Images */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+          <div>
+            <HorseImage
+              src="./images/lameness-detection.jpg"
+              alt="Image 26: Professional lameness examination demonstrating proper evaluation techniques"
+              aspectRatio="aspect-auto"
+              onClick={() => setLightboxImage('./images/lameness-detection.jpg')}
+            />
+            <p className="text-sm text-gray-600 italic mt-2 text-center">
+              Image 26: Professional lameness examination demonstrating proper evaluation techniques <sup><Link to="/citations#aaep-lameness-detection-img" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
+            </p>
+          </div>
+          <div>
+            <HorseImage
+              src="./images/equine-wellness.jpg"
+              alt="Image 27: Equine wellness and lameness detection methodology"
+              aspectRatio="aspect-auto"
+              onClick={() => setLightboxImage('./images/equine-wellness.jpg')}
+            />
+            <p className="text-sm text-gray-600 italic mt-2 text-center">
+              Image 27: Equine wellness and lameness detection methodology <sup><Link to="/citations#thehorse-equine-wellness-img" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
+            </p>
+          </div>
+          <div>
+            <HorseImage
+              src="./images/evaluating-horse.jpg"
+              alt="Image 29: Evaluating horse for lameness detection"
+              aspectRatio="aspect-auto"
+              onClick={() => setLightboxImage('./images/evaluating-horse.jpg')}
+            />
+            <p className="text-sm text-gray-600 italic mt-2 text-center">
+              Image 29: Evaluating horse for lameness detection <sup><Link to="/citations#evaluating-horse-img" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
+            </p>
           </div>
         </div>
       </div>

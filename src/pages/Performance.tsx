@@ -30,6 +30,9 @@ export default function Performance() {
               <source src="./videos/billy-walk.MOV" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
+            <p className="text-sm text-gray-600 italic mt-2 text-center">
+              <sup><Link to="/citations#self-video-billy-walk" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Video Source]</Link></sup>
+            </p>
           </div>
           <div className="space-y-3 text-gray-700">
             <div>
@@ -61,6 +64,9 @@ export default function Performance() {
               <source src="./videos/billy-trot.MOV" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
+            <p className="text-sm text-gray-600 italic mt-2 text-center">
+              <sup><Link to="/citations#self-video-billy-trot" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Video Source]</Link></sup>
+            </p>
           </div>
           <div className="space-y-3 text-gray-700">
             <div>
@@ -92,6 +98,9 @@ export default function Performance() {
               <source src="./videos/billy-canter.MOV" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
+            <p className="text-sm text-gray-600 italic mt-2 text-center">
+              <sup><Link to="/citations#self-video-billy-canter" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Video Source]</Link></sup>
+            </p>
           </div>
           <p className="text-gray-700 mb-3 italic">
             Due to Billy's chronic low grade lameness it was very hard to get him to canter, so his canter is very similar to his trot.

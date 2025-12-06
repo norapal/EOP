@@ -60,6 +60,9 @@ export default function Facility() {
               aspectRatio="aspect-video"
               onClick={() => setLightboxImage('./images/equine-aerial.jpg')}
             />
+            <p className="text-sm text-gray-600 italic mt-2 text-center">
+              <sup><Link to="/citations#self-img-aerial-facility" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
+            </p>
           </div>
         </div>
       </div>
@@ -78,6 +81,9 @@ export default function Facility() {
               aspectRatio="aspect-[4/3]"
               onClick={() => setLightboxImage('./images/barn-front.jpg')}
             />
+            <p className="text-sm text-gray-600 italic mt-2 text-center">
+              <sup><Link to="/citations#self-img-barn-front" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
+            </p>
           </div>
           <div>
             <HorseImage
@@ -87,6 +93,9 @@ export default function Facility() {
               aspectRatio="aspect-[3/4]"
               onClick={() => setLightboxImage('./images/stall-front.jpg')}
             />
+            <p className="text-sm text-gray-600 italic mt-2 text-center">
+              <sup><Link to="/citations#self-img-facility-maintenance" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
+            </p>
           </div>
           <div>
             <HorseImage
@@ -96,6 +105,9 @@ export default function Facility() {
               aspectRatio="aspect-[3/4]"
               onClick={() => setLightboxImage('./images/stall-inside.jpg')}
             />
+            <p className="text-sm text-gray-600 italic mt-2 text-center">
+              <sup><Link to="/citations#self-img-facility-maintenance" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
+            </p>
           </div>
         </div>
       </div>
@@ -114,6 +126,9 @@ export default function Facility() {
               aspectRatio="aspect-[4/3]"
               onClick={() => setLightboxImage('./images/gross-corner.jpg')}
             />
+            <p className="text-sm text-gray-600 italic mt-2 text-center">
+              <sup><Link to="/citations#self-img-facility-maintenance" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
+            </p>
           </div>
           <div>
             <HorseImage
@@ -123,6 +138,9 @@ export default function Facility() {
               aspectRatio="aspect-[4/3]"
               onClick={() => setLightboxImage('./images/feeding-bin.jpg')}
             />
+            <p className="text-sm text-gray-600 italic mt-2 text-center">
+              <sup><Link to="/citations#self-img-facility-maintenance" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
+            </p>
           </div>
           <div>
             <HorseImage
@@ -132,6 +150,9 @@ export default function Facility() {
               aspectRatio="aspect-[4/3]"
               onClick={() => setLightboxImage('./images/water-trough.jpg')}
             />
+            <p className="text-sm text-gray-600 italic mt-2 text-center">
+              <sup><Link to="/citations#self-img-facility-maintenance" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
+            </p>
           </div>
         </div>
       </div>

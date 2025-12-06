@@ -108,6 +108,9 @@ The American Quarter Horse has become the largest breed association in the world
                 aspectRatio="aspect-[3/4]"
                 onClick={() => setLightboxImage('./images/billy-front-1.jpg')}
               />
+              <p className="text-sm text-gray-600 italic mt-2 text-center">
+                <sup><Link to="/citations#self-img-billy-photos" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
+              </p>
             </div>
             <div>
               <label className="block text-sm font-medium text-navy-blue mb-2">
@@ -120,6 +123,9 @@ The American Quarter Horse has become the largest breed association in the world
                 aspectRatio="aspect-[4/3]"
                 onClick={() => setLightboxImage('./images/billy-side-1.jpg')}
               />
+              <p className="text-sm text-gray-600 italic mt-2 text-center">
+                <sup><Link to="/citations#self-img-billy-photos" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
+              </p>
             </div>
           </div>
         </div>
