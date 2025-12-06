@@ -152,11 +152,11 @@ export default function Performance() {
         <div className="mt-6 max-w-2xl mx-auto">
           <HorseImage
             src="./images/ideal-movement.jpg"
-            alt="Image 24: The AQHA rulebook describes the western pleasure jog as 'a smooth, ground-covering, two-beat diagonal gait.'"
+            alt="Image 25: The AQHA rulebook describes the western pleasure jog as 'a smooth, ground-covering, two-beat diagonal gait.'"
             aspectRatio="aspect-[4/3]"
           />
           <p className="text-sm text-gray-600 italic mt-2 text-center">
-            Image 24: The AQHA rulebook describes the western pleasure jog as "a smooth, ground-covering, two-beat diagonal gait." <sup><Link to="/citations#aqha-western-pleasure" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[7]</Link></sup>
+            Image 25: The AQHA rulebook describes the western pleasure jog as "a smooth, ground-covering, two-beat diagonal gait." <sup><Link to="/citations#aqha-western-pleasure" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[7]</Link></sup>
           </p>
         </div>
       </div>

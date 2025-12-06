@@ -168,8 +168,8 @@ export default function HealthWellness() {
             </label>
             <HorseImage
               src="./images/billy-side-1.jpg"
-              alt="Image 25: Side profile view of Billy for body condition score assessment"
-              title="Image 25: Side view for BCS assessment showing body condition"
+              alt="Image 26: Side profile view of Billy for body condition score assessment"
+              title="Image 26: Side view for BCS assessment showing body condition"
               aspectRatio="aspect-[4/3]"
             />
           </div>

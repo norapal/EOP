@@ -24,7 +24,7 @@ export default function Conformation() {
           <h2 className="text-2xl font-serif text-forest-green mb-6">
             Conformational Views
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div>
               <HorseImage
                 src="./images/billy-front-1.jpg"
@@ -61,6 +61,15 @@ export default function Conformation() {
                 onClick={() => setLightboxImage('./images/billy-hindquarters.jpg')}
               />
             </div>
+            <div>
+              <HorseImage
+                src="./images/billy-side-2.jpg"
+                alt="Image 15: Other lateral view of Billy showing side profile conformation"
+                title="Image 15: Other lateral view showing topline, angles, and proportions"
+                aspectRatio="aspect-[4/3]"
+                onClick={() => setLightboxImage('./images/billy-side-2.jpg')}
+              />
+            </div>
           </div>
         </div>
 
@@ -74,12 +83,12 @@ export default function Conformation() {
           <div className="mb-6 bg-white rounded-soft p-4 max-w-lg mx-auto">
             <HorseImage
               src="./images/what-is-a-quarter-horse.jpg"
-              alt="Image 15: Ideal American Quarter Horse conformation based on AQHA standards"
+              alt="Image 16: Ideal American Quarter Horse conformation based on AQHA standards"
               aspectRatio="aspect-auto"
               onClick={() => setLightboxImage('./images/what-is-a-quarter-horse.jpg')}
             />
             <p className="text-sm text-gray-600 italic mt-2 text-center">
-              Image 15: Ideal American Quarter Horse conformation based on AQHA standards <sup><Link to="/citations#what-is-quarter-horse-img" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
+              Image 16: Ideal American Quarter Horse conformation based on AQHA standards <sup><Link to="/citations#what-is-quarter-horse-img" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
             </p>
           </div>
 
@@ -116,8 +125,8 @@ export default function Conformation() {
             <div>
               <HorseImage
                 src="./images/billy-front-documentation.jpg"
-                alt="Image 16: Annotated front view of Billy showing conformational measurements and angles"
-                title="Image 16: Front view with conformational annotations"
+                alt="Image 17: Annotated front view of Billy showing conformational measurements and angles"
+                title="Image 17: Front view with conformational annotations"
                 aspectRatio="aspect- auto"
                 onClick={() => setLightboxImage('./images/billy-front-documentation.jpg')}
               />
@@ -125,8 +134,8 @@ export default function Conformation() {
             <div>
               <HorseImage
                 src="./images/billy-side-documentation.jpg"
-                alt="Image 17: Annotated lateral view of Billy showing conformational measurements and angles"
-                title="Image 17: Lateral view with conformational annotations"
+                alt="Image 18: Annotated lateral view of Billy showing conformational measurements and angles"
+                title="Image 18: Lateral view with conformational annotations"
                 aspectRatio="aspect- auto"
                 onClick={() => setLightboxImage('./images/billy-side-documentation.jpg')}
               />
@@ -134,8 +143,8 @@ export default function Conformation() {
             <div>
               <HorseImage
                 src="./images/billy-rear-documentation.jpg"
-                alt="Image 18: Annotated rear view of Billy showing conformational measurements and angles"
-                title="Image 18: Rear view with conformational annotations"
+                alt="Image 19: Annotated rear view of Billy showing conformational measurements and angles"
+                title="Image 19: Rear view with conformational annotations"
                 aspectRatio="aspect- auto"
                 onClick={() => setLightboxImage('./images/billy-rear-documentation.jpg')}
               />
@@ -153,60 +162,60 @@ export default function Conformation() {
             <div className="bg-white rounded-soft p-4">
               <HorseImage
                 src="./images/quarter-horse-ratio-1.jpg"
-                alt="Image 19: Ideal Quarter Horse shoulder angle diagram showing 45-50 degree slope"
+                alt="Image 20: Ideal Quarter Horse shoulder angle diagram showing 45-50 degree slope"
                 aspectRatio="aspect-[4/3]"
                 onClick={() => setLightboxImage('./images/quarter-horse-ratio-1.jpg')}
               />
               <p className="text-sm text-gray-600 italic mt-2 text-center">
-                Image 19: Ideal Quarter Horse shoulder angle diagram showing 45-50 degree slope <sup><Link to="/citations#balanced-horse-ratios-img" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
+                Image 20: Ideal Quarter Horse shoulder angle diagram showing 45-50 degree slope <sup><Link to="/citations#balanced-horse-ratios-img" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
               </p>
             </div>
             
             <div className="bg-white rounded-soft p-4">
               <HorseImage
                 src="./images/quarter-horse-ratio-2.jpg"
-                alt="Image 20: Ideal Quarter Horse neck topline to bottomline ratio diagram"
+                alt="Image 21: Ideal Quarter Horse neck topline to bottomline ratio diagram"
                 aspectRatio="aspect-[4/3]"
                 onClick={() => setLightboxImage('./images/quarter-horse-ratio-2.jpg')}
               />
               <p className="text-sm text-gray-600 italic mt-2 text-center">
-                Image 20: Ideal Quarter Horse neck topline to bottomline ratio diagram <sup><Link to="/citations#balanced-horse-ratios-img" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
+                Image 21: Ideal Quarter Horse neck topline to bottomline ratio diagram <sup><Link to="/citations#balanced-horse-ratios-img" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
               </p>
             </div>
             
             <div className="bg-white rounded-soft p-4">
               <HorseImage
                 src="./images/quarter-horse-ratio-3.jpg"
-                alt="Image 21: Ideal Quarter Horse topline to bottomline 1:2 ratio diagram"
+                alt="Image 22: Ideal Quarter Horse topline to bottomline 1:2 ratio diagram"
                 aspectRatio="aspect-[4/3]"
                 onClick={() => setLightboxImage('./images/quarter-horse-ratio-3.jpg')}
               />
               <p className="text-sm text-gray-600 italic mt-2 text-center">
-                Image 21: Ideal Quarter Horse topline to bottomline 1:2 ratio diagram <sup><Link to="/citations#balanced-horse-ratios-img" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
+                Image 22: Ideal Quarter Horse topline to bottomline 1:2 ratio diagram <sup><Link to="/citations#balanced-horse-ratios-img" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
               </p>
             </div>
             
             <div className="bg-white rounded-soft p-4">
               <HorseImage
                 src="./images/quarter-horse-ratio-4.jpg"
-                alt="Image 22: Ideal Quarter Horse square hip ratio diagram"
+                alt="Image 23: Ideal Quarter Horse square hip ratio diagram"
                 aspectRatio="aspect-[4/3]"
                 onClick={() => setLightboxImage('./images/quarter-horse-ratio-4.jpg')}
               />
               <p className="text-sm text-gray-600 italic mt-2 text-center">
-                Image 22: Ideal Quarter Horse square hip ratio diagram <sup><Link to="/citations#balanced-horse-ratios-img" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
+                Image 23: Ideal Quarter Horse square hip ratio diagram <sup><Link to="/citations#balanced-horse-ratios-img" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
               </p>
             </div>
             
             <div className="bg-white rounded-soft p-4 max-w-[200px] mx-auto">
               <HorseImage
                 src="./images/quarter-horse-ideal-legs.jpg"
-                alt="Image 23: Ideal Quarter Horse front leg conformation"
+                alt="Image 24: Ideal Quarter Horse front leg conformation"
                 aspectRatio="aspect-auto"
                 onClick={() => setLightboxImage('./images/quarter-horse-ideal-legs.jpg')}
               />
               <p className="text-sm text-gray-600 italic mt-2 text-center">
-                Image 23: Ideal Quarter Horse front leg conformation <sup><Link to="/citations#ideal-legs-img" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
+                Image 24: Ideal Quarter Horse front leg conformation <sup><Link to="/citations#ideal-legs-img" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
               </p>
             </div>
           </div>
