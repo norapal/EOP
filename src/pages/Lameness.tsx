@@ -175,7 +175,7 @@ export default function Lameness() {
         </div>
 
         {/* Lameness Detection Images */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
           <div>
             <HorseImage
               src="./images/lameness-detection.jpg"
@@ -189,24 +189,13 @@ export default function Lameness() {
           </div>
           <div>
             <HorseImage
-              src="./images/equine-wellness.jpg"
-              alt="Image 27: Equine wellness and lameness detection methodology"
-              aspectRatio="aspect-auto"
-              onClick={() => setLightboxImage('./images/equine-wellness.jpg')}
-            />
-            <p className="text-sm text-gray-600 italic mt-2 text-center">
-              Image 27: Equine wellness and lameness detection methodology <sup><Link to="/citations#thehorse-equine-wellness-img" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
-            </p>
-          </div>
-          <div>
-            <HorseImage
               src="./images/evaluating-horse.jpg"
-              alt="Image 29: Evaluating horse for lameness detection"
+              alt="Image 27: Evaluating horse for lameness detection"
               aspectRatio="aspect-auto"
               onClick={() => setLightboxImage('./images/evaluating-horse.jpg')}
             />
             <p className="text-sm text-gray-600 italic mt-2 text-center">
-              Image 29: Evaluating horse for lameness detection <sup><Link to="/citations#evaluating-horse-img" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
+              Image 27: Evaluating horse for lameness detection <sup><Link to="/citations#evaluating-horse-img" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
             </p>
           </div>
         </div>

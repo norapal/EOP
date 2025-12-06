@@ -1,11 +1,20 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Section from '@/components/Section'
 import HorseImage from '@/components/HorseImage'
+import Lightbox from '@/components/Lightbox'
 
 export default function HealthWellness() {
+  const [lightboxImage, setLightboxImage] = useState<string | null>(null)
 
   return (
     <Section className="bg-white">
+      {lightboxImage && (
+        <Lightbox
+          image={lightboxImage}
+          onClose={() => setLightboxImage(null)}
+        />
+      )}
       <div className="mb-8">
         <h1 className="text-4xl font-serif text-forest-green mb-4">
           Your Horse's Wellness Program
@@ -51,6 +60,18 @@ export default function HealthWellness() {
         <p className="text-gray-700 leading-relaxed mt-4">
             The first step of your physical exam is to look at the horse from a distance and assess the stance, general behavior, body condition score, coat health, and respiratory rate <sup><Link to="/citations#vt-physical-exam" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[11]</Link></sup>. The head and neck examination starts by lifting the upper lip to determine color, moisture, and capillary refill time in the upper membranes. The horse’s dentition condition should also be noted. It is important to look for any chips or irregularities in the teeth. Proper reflexes in the eyes can then be checked, and an evaluation of the nares for symmetry and airflow can follow <sup><Link to="/citations#vt-physical-exam" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[11]</Link></sup>. Also note any abnormal discharge from the nose, eyes, or mouth. Next, you should palpate the ears for temperature, lymph nodes for swelling, and the pulse should be recorded via the facial artery <sup><Link to="/citations#vt-physical-exam" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[11]</Link></sup>. During the thoracic region assessment, listen for proper lung function by paying close attention to breathing sounds. Compare these sounds on both sides and pay close attention to inspiration being louder than expiration <sup><Link to="/citations#vt-physical-exam" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[11]</Link></sup>. Then listen to the heart rate on both sides to check valve function and the heart rate of your horse <sup><Link to="/citations#vt-physical-exam" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[11]</Link></sup>. When examining the abdominal region, listen for rumbling gut sounds on both sides. The last step would be the musculoskeletal portion, which identifies any swelling, heat, or pain on all four limbs <sup><Link to="/citations#vt-physical-exam" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[11]</Link></sup>. In this portion, the digital pulse in each limb should also be taken, and an assessment of muscle symmetry should be conducted <sup><Link to="/citations#vt-physical-exam" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[11]</Link></sup>.
         </p>
+        {/* Physical Exam Image */}
+        <div className="mt-6 max-w-2xl mx-auto">
+          <HorseImage
+            src="./images/equine-wellness.jpg"
+            alt="Image 27: Medical professionals conducting a thorough physical examination of a horse"
+            aspectRatio="aspect-auto"
+            onClick={() => setLightboxImage('./images/equine-wellness.jpg')}
+          />
+          <p className="text-sm text-gray-600 italic mt-2 text-center">
+            Image 27: Medical professionals conducting a thorough physical examination of a horse <sup><Link to="/citations#thehorse-equine-wellness-img" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
+          </p>
+        </div>
       </div>
 
       {/* Daily Diet */}
@@ -383,11 +404,12 @@ export default function HealthWellness() {
               <div>
                 <HorseImage
                   src="./images/hypp.jpg"
-                  alt="Image 30: Hyperkalemic Periodic Paralysis (HYPP) in horses"
+                  alt="Image 29: Hyperkalemic Periodic Paralysis (HYPP) in horses"
                   aspectRatio="aspect-auto"
+                  onClick={() => setLightboxImage('./images/hypp.jpg')}
                 />
                 <p className="text-sm text-gray-600 italic mt-2 text-center">
-                  Image 30: HYPP in horses <sup><Link to="/citations#hypp-img" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
+                  Image 29: HYPP in horses <sup><Link to="/citations#hypp-img" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
                 </p>
               </div>
             </div>
@@ -403,11 +425,12 @@ export default function HealthWellness() {
               <div>
                 <HorseImage
                   src="./images/common-diseases.jpg"
-                  alt="Image 31: Polysaccharide Storage Myopathy (PSSM) in horses"
+                  alt="Image 30: Polysaccharide Storage Myopathy (PSSM) in horses"
                   aspectRatio="aspect-auto"
+                  onClick={() => setLightboxImage('./images/common-diseases.jpg')}
                 />
                 <p className="text-sm text-gray-600 italic mt-2 text-center">
-                  Image 31: PSSM in horses <sup><Link to="/citations#pssm-img" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
+                  Image 30: PSSM in horses <sup><Link to="/citations#pssm-img" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
                 </p>
               </div>
             </div>
@@ -423,11 +446,12 @@ export default function HealthWellness() {
               <div>
                 <HorseImage
                   src="./images/herda-signs.jpg"
-                  alt="Image 32: Hereditary Equine Regional Dermal Asthenia (HERDA) signs"
+                  alt="Image 31: Hereditary Equine Regional Dermal Asthenia (HERDA) signs"
                   aspectRatio="aspect-auto"
+                  onClick={() => setLightboxImage('./images/herda-signs.jpg')}
                 />
                 <p className="text-sm text-gray-600 italic mt-2 text-center">
-                  Image 32: HERDA signs in horses <sup><Link to="/citations#herda-img" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
+                  Image 31: HERDA signs in horses <sup><Link to="/citations#herda-img" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
                 </p>
               </div>
             </div>
@@ -443,11 +467,12 @@ export default function HealthWellness() {
               <div>
                 <HorseImage
                   src="./images/gbed.jpg"
-                  alt="Image 33: Glycogen Branching Enzyme Deficiency (GBED) in horses"
+                  alt="Image 32: Glycogen Branching Enzyme Deficiency (GBED) in horses"
                   aspectRatio="aspect-auto"
+                  onClick={() => setLightboxImage('./images/gbed.jpg')}
                 />
                 <p className="text-sm text-gray-600 italic mt-2 text-center">
-                  Image 33: GBED in horses <sup><Link to="/citations#gbed-img" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
+                  Image 32: GBED in horses <sup><Link to="/citations#gbed-img" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
                 </p>
               </div>
             </div>

@@ -451,31 +451,27 @@ export default function Citations() {
             <p className="text-sm text-gray-600">Source: <a href="https://aaep.org/resource/client-education-presentation-lameness-exams/" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">https://aaep.org/resource/client-education-presentation-lameness-exams/</a></p>
           </div>
           <div id="thehorse-equine-wellness-img" className="bg-white rounded-soft p-4 transition-all duration-300">
-            <p className="font-semibold text-navy-blue mb-1">Image 27: Equine Wellness and Lameness Detection</p>
+            <p className="font-semibold text-navy-blue mb-1">Image 27: Medical Professionals Conducting Thorough Physical Examination</p>
             <p className="text-sm text-gray-600">Source: <a href="https://thehorse.com/117383/equine-lameness-detection/" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">https://thehorse.com/117383/equine-lameness-detection/</a></p>
           </div>
           <div className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="font-semibold text-navy-blue mb-1">Image 28: Billy Body Condition Score</p>
             <p className="text-sm text-gray-600">Self-Created: Photo taken by portfolio author</p>
           </div>
-          <div id="evaluating-horse-img" className="bg-white rounded-soft p-4 transition-all duration-300">
-            <p className="font-semibold text-navy-blue mb-1">Image 29: Evaluating Horse for Lameness Detection</p>
-            <p className="text-sm text-gray-600">Source: <a href="http://thehorse.com/117383/equine-lameness-detection/" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">http://thehorse.com/117383/equine-lameness-detection/</a></p>
-          </div>
           <div id="hypp-img" className="bg-white rounded-soft p-4 transition-all duration-300">
-            <p className="font-semibold text-navy-blue mb-1">Image 30: Hyperkalemic Periodic Paralysis (HYPP) in Horses</p>
+            <p className="font-semibold text-navy-blue mb-1">Image 29: Hyperkalemic Periodic Paralysis (HYPP) in Horses</p>
             <p className="text-sm text-gray-600">Source: <a href="https://www.smartpakequine.com/learn-health/hypp-horse?srsltid=AfmBOop19h7lrX8cz7ZHBRJPwHzjIAQ8u3SPC7RZLCd3Y1W08RDTiH9k" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">https://www.smartpakequine.com/learn-health/hypp-horse</a></p>
           </div>
           <div id="pssm-img" className="bg-white rounded-soft p-4 transition-all duration-300">
-            <p className="font-semibold text-navy-blue mb-1">Image 31: Polysaccharide Storage Myopathy (PSSM) in Horses</p>
+            <p className="font-semibold text-navy-blue mb-1">Image 30: Polysaccharide Storage Myopathy (PSSM) in Horses</p>
             <p className="text-sm text-gray-600">Source: <a href="https://secondvet.com/pssm-in-horses-thoughts-on-therapy-options/" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">https://secondvet.com/pssm-in-horses-thoughts-on-therapy-options/</a></p>
           </div>
           <div id="herda-img" className="bg-white rounded-soft p-4 transition-all duration-300">
-            <p className="font-semibold text-navy-blue mb-1">Image 32: Hereditary Equine Regional Dermal Asthenia (HERDA) Signs</p>
+            <p className="font-semibold text-navy-blue mb-1">Image 31: Hereditary Equine Regional Dermal Asthenia (HERDA) Signs</p>
             <p className="text-sm text-gray-600">Source: <a href="https://ceh.vetmed.ucdavis.edu/health-topics/hereditary-equine-regional-dermal-asthenia-herda" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">https://ceh.vetmed.ucdavis.edu/health-topics/hereditary-equine-regional-dermal-asthenia-herda</a></p>
           </div>
           <div id="gbed-img" className="bg-white rounded-soft p-4 transition-all duration-300">
-            <p className="font-semibold text-navy-blue mb-1">Image 33: Glycogen Branching Enzyme Deficiency (GBED) in Horses</p>
+            <p className="font-semibold text-navy-blue mb-1">Image 32: Glycogen Branching Enzyme Deficiency (GBED) in Horses</p>
             <p className="text-sm text-gray-600">Source: <a href="https://equimed.com/news/health/gbed-a-cause-of-abortions-and-foal-deaths" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">https://equimed.com/news/health/gbed-a-cause-of-abortions-and-foal-deaths</a></p>
           </div>
         </div>
