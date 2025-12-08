@@ -131,7 +131,7 @@ export default function HealthWellness() {
                 <td className="border border-gray-300 px-4 py-2">
                   5 lbs<br />
                   2 lbs<br />
-                  1 scoop<br />
+                  2.5 scoops<br />
                   1 lb
                 </td>
               </tr>
@@ -146,7 +146,7 @@ export default function HealthWellness() {
         <div className="mt-6 space-y-4">
           <div className="bg-cream rounded-soft p-4">
             <p className="text-gray-700">
-              <span className="font-semibold text-navy-blue">Total Daily Intake:</span> 21 lbs grass hay + 7 lbs alfalfa pellets + 2 lbs concentrate + joint supplement = 30 lbs (2.4% body weight)
+              <span className="font-semibold text-navy-blue">Total Daily Intake:</span> 21 lbs grass hay + 7 lbs alfalfa pellets + 2 lbs concentrate + 2.5 scoops joint supplements = 30 lbs (2.4% body weight)
             </p>
           </div>
           

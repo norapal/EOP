@@ -28,9 +28,6 @@ export default function Citations() {
         <h1 className="text-4xl font-serif text-forest-green mb-4">
           Citations & References
         </h1>
-        <p className="text-lg text-gray-700 leading-relaxed">
-          All sources used in this portfolio are cited using appropriate Animal Science (ASCI) citation format. Sources are referenced both within the text and listed below.
-        </p>
       </div>
 
       <div className="bg-cream rounded-softer p-6 mb-8">
@@ -316,27 +313,27 @@ export default function Citations() {
           </div>
           <div id="self-video-billy-walk" className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="font-semibold text-navy-blue mb-1">Video 2: Billy Walk (Performance Page)</p>
-            <p className="text-sm text-gray-600">Self-Created: Video taken by portfolio author</p>
+            <p className="text-sm text-gray-600">Self-Taken</p>
           </div>
           <div id="self-video-billy-trot" className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="font-semibold text-navy-blue mb-1">Video 3: Billy Trot (Performance Page)</p>
-            <p className="text-sm text-gray-600">Self-Created: Video taken by portfolio author</p>
+            <p className="text-sm text-gray-600">Self-Taken</p>
           </div>
           <div id="self-video-billy-canter" className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="font-semibold text-navy-blue mb-1">Video 4: Billy Canter (Performance Page)</p>
-            <p className="text-sm text-gray-600">Self-Created: Video taken by portfolio author</p>
+            <p className="text-sm text-gray-600">Self-Taken</p>
           </div>
           <div id="self-video-right-frontlimb-lameness" className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="font-semibold text-navy-blue mb-1">Video 5: Right Frontlimb Lameness at Trot (Lameness Page)</p>
-            <p className="text-sm text-gray-600">Self-Created: Video taken by portfolio author</p>
+            <p className="text-sm text-gray-600">Self-Taken</p>
           </div>
           <div id="self-video-right-hindlimb-lameness" className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="font-semibold text-navy-blue mb-1">Video 6: Right Hindlimb Lameness (Lameness Page)</p>
-            <p className="text-sm text-gray-600">Self-Created: Video taken by portfolio author</p>
+            <p className="text-sm text-gray-600">Self-Taken</p>
           </div>
           <div id="self-video-billy-circle" className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="font-semibold text-navy-blue mb-1">Video 7: Billy Circle Movement (Lameness Page)</p>
-            <p className="text-sm text-gray-600">Self-Created: Video taken by portfolio author</p>
+            <p className="text-sm text-gray-600">Self-Taken</p>
           </div>
         </div>
       </div>
@@ -348,11 +345,11 @@ export default function Citations() {
         <div className="space-y-3 text-gray-700">
           <div id="self-img-billy-photos" className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="font-semibold text-navy-blue mb-1">Image 1: Billy Front View</p>
-            <p className="text-sm text-gray-600">Self-Created: Photo taken by portfolio author</p>
+            <p className="text-sm text-gray-600">Self-Taken</p>
           </div>
           <div className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="font-semibold text-navy-blue mb-1">Image 2: Billy Side View</p>
-            <p className="text-sm text-gray-600">Self-Created: Photo taken by portfolio author</p>
+            <p className="text-sm text-gray-600">Self-Taken</p>
           </div>
           <div id="aqha-rulebook-img" className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="font-semibold text-navy-blue mb-1">Image 3: AQHA Official Rulebook</p>
@@ -360,51 +357,51 @@ export default function Citations() {
           </div>
           <div id="self-img-aerial-facility" className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="font-semibold text-navy-blue mb-1">Image 4: Oppenheimer Family Equine Center Aerial View</p>
-            <p className="text-sm text-gray-600">Self-Created: Photo taken by portfolio author</p>
+            <p className="text-sm text-gray-600">Source: <a href="https://www.specialtyconstruction.com/project/oppenheimer-family-equine-center-california-polytechnic-state-university.php" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">https://www.specialtyconstruction.com/project/oppenheimer-family-equine-center-california-polytechnic-state-university.php</a></p>
           </div>
           <div id="self-img-barn-front" className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="font-semibold text-navy-blue mb-1">Image 5: Oppenheimer Family Equine Center Barn Front</p>
-            <p className="text-sm text-gray-600">Self-Created: Photo taken by portfolio author</p>
+            <p className="text-sm text-gray-600">Self-Taken</p>
           </div>
           <div id="self-img-facility-maintenance" className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="font-semibold text-navy-blue mb-1">Image 6: Stall Front</p>
-            <p className="text-sm text-gray-600">Self-Created: Photo taken by portfolio author</p>
+            <p className="text-sm text-gray-600">Self-Taken</p>
           </div>
           <div className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="font-semibold text-navy-blue mb-1">Image 7: Stall Interior</p>
-            <p className="text-sm text-gray-600">Self-Created: Photo taken by portfolio author</p>
+            <p className="text-sm text-gray-600">Self-Taken</p>
           </div>
           <div className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="font-semibold text-navy-blue mb-1">Image 8: Water Trough</p>
-            <p className="text-sm text-gray-600">Self-Created: Photo taken by portfolio author</p>
+            <p className="text-sm text-gray-600">Self-Taken</p>
           </div>
           <div className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="font-semibold text-navy-blue mb-1">Image 9: Feeding Bin</p>
-            <p className="text-sm text-gray-600">Self-Created: Photo taken by portfolio author</p>
+            <p className="text-sm text-gray-600">Self-Taken</p>
           </div>
           <div className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="font-semibold text-navy-blue mb-1">Image 10: Corner Maintenance Area</p>
-            <p className="text-sm text-gray-600">Self-Created: Photo taken by portfolio author</p>
+            <p className="text-sm text-gray-600">Self-Taken</p>
           </div>
           <div className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="font-semibold text-navy-blue mb-1">Image 11: Billy Front Conformation</p>
-            <p className="text-sm text-gray-600">Self-Created: Photo taken by portfolio author</p>
+            <p className="text-sm text-gray-600">Self-Taken</p>
           </div>
           <div className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="font-semibold text-navy-blue mb-1">Image 12: Billy Side Conformation</p>
-            <p className="text-sm text-gray-600">Self-Created: Photo taken by portfolio author</p>
+            <p className="text-sm text-gray-600">Self-Taken</p>
           </div>
           <div className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="font-semibold text-navy-blue mb-1">Image 13: Billy Rear Conformation</p>
-            <p className="text-sm text-gray-600">Self-Created: Photo taken by portfolio author</p>
+            <p className="text-sm text-gray-600">Self-Taken</p>
           </div>
           <div className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="font-semibold text-navy-blue mb-1">Image 14: Billy Side View 2</p>
-            <p className="text-sm text-gray-600">Self-Created: Photo taken by portfolio author</p>
+            <p className="text-sm text-gray-600">Self-Taken</p>
           </div>
           <div className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="font-semibold text-navy-blue mb-1">Image 15: Billy Hindquarters</p>
-            <p className="text-sm text-gray-600">Self-Created: Photo taken by portfolio author</p>
+            <p className="text-sm text-gray-600">Self-Taken</p>
           </div>
           <div id="what-is-quarter-horse-img" className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="font-semibold text-navy-blue mb-1">Image 16: Ideal Quarter Horse Conformation</p>
@@ -412,15 +409,15 @@ export default function Citations() {
           </div>
           <div className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="font-semibold text-navy-blue mb-1">Image 17: Billy Side Documentation</p>
-            <p className="text-sm text-gray-600">Self-Created: Photo taken by portfolio author</p>
+            <p className="text-sm text-gray-600">Self-Taken</p>
           </div>
           <div className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="font-semibold text-navy-blue mb-1">Image 18: Billy Front Documentation</p>
-            <p className="text-sm text-gray-600">Self-Created: Photo taken by portfolio author</p>
+            <p className="text-sm text-gray-600">Self-Taken</p>
           </div>
           <div className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="font-semibold text-navy-blue mb-1">Image 19: Billy Rear Documentation</p>
-            <p className="text-sm text-gray-600">Self-Created: Photo taken by portfolio author</p>
+            <p className="text-sm text-gray-600">Self-Taken</p>
           </div>
           <div id="balanced-horse-ratios-img" className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="font-semibold text-navy-blue mb-1">Image 20: Balanced Horse Shoulder Ratio</p>
@@ -456,7 +453,7 @@ export default function Citations() {
           </div>
           <div className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="font-semibold text-navy-blue mb-1">Image 28: Billy Body Condition Score</p>
-            <p className="text-sm text-gray-600">Self-Created: Photo taken by portfolio author</p>
+            <p className="text-sm text-gray-600">Self-Taken</p>
           </div>
           <div id="hypp-img" className="bg-white rounded-soft p-4 transition-all duration-300">
             <p className="font-semibold text-navy-blue mb-1">Image 29: Hyperkalemic Periodic Paralysis (HYPP) in Horses</p>

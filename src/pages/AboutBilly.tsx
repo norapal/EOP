@@ -15,7 +15,7 @@ export default function AboutBilly() {
             Section 1: About Billy
           </h1>
           <p className="text-lg text-gray-700 leading-relaxed">
-            Having background information about your horse's origins and characteristics is very important to understand how to properly care for your horse. A horse's breed can give you important information about their capabilities, temperament, and conformational traits.
+            To properly care for your horse, it is important to understand your horse's background, origins, and characteristics. Learning about your horse's breed will give you crucial information about their capabilities, treatment, and conformational traits.
           </p>
         </div>
 
@@ -149,7 +149,7 @@ The American Quarter Horse has become the largest breed association in the world
                 2. Physical Identifiers and Documentation
               </h3>
               <p className="leading-relaxed">
-                When registering your foal with the American Quarter Horse Association you must list the foal's date of birth, gender, and coloring. You must also include their markings on the documents as well with pictures of their left side, right side, front, back, and a markings diagram. The photos that are submitted must show all the markings of the horse that you documented for identification. Any other unique features must also be noted on the document <sup><Link to="/citations#aqha-register-foal" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[3]</Link></sup>.
+                When you register your foal or horse with the American Quarter Horse Association, you need to include their date of birth, gender, and coloring. You must also include their markings on the documents as well, with pictures of their left side, right side, front, back, and a markings diagram. The photos that are submitted must show all the markings of the horse that you documented for identification. Any other unique features must also be noted on the document <sup><Link to="/citations#aqha-register-foal" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[3]</Link></sup>.
               </p>
             </div>
             <div>
@@ -157,7 +157,7 @@ The American Quarter Horse has become the largest breed association in the world
                 3. DNA Testing and Parentage Verification
               </h3>
               <p className="leading-relaxed">
-                All breeding stallions and mares need to be DNA tested before the foal can be registered. The parent must be genetically verified if the foal was produced by an embryo transfer, produced by transported semen, produced by frozen semen, produced by a mare that was bred to more than one stallion in a month, produced by a stallion or mare that is a descendant of the stallion Impressive (genetic issues), produced by a stallion that is under 2 years of age, or if the offspring was produced by a stallion that was over 48 months of age. The DNA testing performed looks at the DNA genotypes of the parents. This profile also has the specific markers from the parents to identify the parents correctly. Furthermore, additional documents of verification are required for racehorses or weanlings. Racehorses need to have their parent line verified before official identification to run in a race. Weanlings need to also have their parent line verified before they compete at the American Quarter Horse Association World Championship show <sup><Link to="/citations#aqha-register-foal" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[3]</Link></sup>.
+                Before registering a foal as an American Quarter Horse, the breeding stallions and mares need to be DNA tested to genetically verify them. The breeding methods used to produce the foal need to be listed on the registration document (embryo transfer, frozen semen, transported semen, etc.). The DNA testing performed looks at the DNA genotypes of the parents. This profile also has the specific markers from the parents to identify the parents correctly. Furthermore, additional documents of verification are required for racehorses or weanlings. Racehorses need to have their parent line verified before official identification to run in a race. Weanlings also need to have their parent line verified before they compete at the American Quarter Horse Association World Championship show <sup><Link to="/citations#aqha-register-foal" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[3]</Link></sup>.
               </p>
             </div>
           </div>

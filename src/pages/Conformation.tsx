@@ -15,7 +15,7 @@ export default function Conformation() {
             Conformation Analysis
           </h1>
           <p className="text-lg text-gray-700 leading-relaxed">
-            Billy's conformation does not match the AQHA's guidelines for the ideal Quarter Horse. Analyzing Billy's structure and proportions, we can identify several areas where balance, movement, and long-term soundness are affected.
+            Billy's conformation is faulty and does not align with the American Quarter Horse Association's guidelines. By looking at Billy's structure and proportions, you are able to note where and how his balance, movement, and long-term soundness are impacted.
           </p>
         </div>
 
@@ -190,13 +190,15 @@ export default function Conformation() {
                 <h3 className="font-semibold text-navy-blue mb-2">Legs & Feet:</h3>
                 <p>Billy's front limbs show to be splay-footed. This affects Billy's center line and can cause stress on his joints and hooves, showing that his limb conformations are not ideal and do not match the AQHA's conformation guidelines. The cow-hocked and camped under conformation on the hindlimbs puts too much weight on the hock joints <sup><Link to="/citations#aqha-balanced-horse" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[6]</Link></sup>.</p>
               </div>
-              <div className="bg-white rounded-soft p-4 max-w-sm">
-                <HorseImage
-                  src="./images/quarter-horse-ideal-legs.jpg"
-                  alt="Image 24: Ideal Quarter Horse front leg conformation"
-                  aspectRatio="aspect-auto"
-                  onClick={() => setLightboxImage('./images/quarter-horse-ideal-legs.jpg')}
-                />
+              <div className="bg-white rounded-soft p-4 max-w-xs mx-auto">
+                <div className="max-h-[600px] overflow-hidden">
+                  <HorseImage
+                    src="./images/quarter-horse-ideal-legs.jpg"
+                    alt="Image 24: Ideal Quarter Horse front leg conformation"
+                    aspectRatio="aspect-auto"
+                    onClick={() => setLightboxImage('./images/quarter-horse-ideal-legs.jpg')}
+                  />
+                </div>
                 <p className="text-sm text-gray-600 italic mt-2 text-center">
                   Image 24: Ideal Quarter Horse front leg conformation <sup><Link to="/citations#ideal-legs-img" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
                 </p>
@@ -216,7 +218,7 @@ export default function Conformation() {
                 src="./images/billy-front-documentation.jpg"
                 alt="Image 17: Annotated front view of Billy showing conformational measurements and angles"
                 title="Image 17: Front view with conformational annotations"
-                aspectRatio="aspect- auto"
+                aspectRatio="aspect-auto"
                 onClick={() => setLightboxImage('./images/billy-front-documentation.jpg')}
               />
               <p className="text-sm text-gray-600 italic mt-2 text-center">
@@ -228,7 +230,7 @@ export default function Conformation() {
                 src="./images/billy-side-documentation.jpg"
                 alt="Image 18: Annotated lateral view of Billy showing conformational measurements and angles"
                 title="Image 18: Lateral view with conformational annotations"
-                aspectRatio="aspect- auto"
+                aspectRatio="aspect-auto"
                 onClick={() => setLightboxImage('./images/billy-side-documentation.jpg')}
               />
               <p className="text-sm text-gray-600 italic mt-2 text-center">
@@ -240,7 +242,7 @@ export default function Conformation() {
                 src="./images/billy-rear-documentation.jpg"
                 alt="Image 19: Annotated rear view of Billy showing conformational measurements and angles"
                 title="Image 19: Rear view with conformational annotations"
-                aspectRatio="aspect- auto"
+                aspectRatio="aspect-auto"
                 onClick={() => setLightboxImage('./images/billy-rear-documentation.jpg')}
               />
               <p className="text-sm text-gray-600 italic mt-2 text-center">

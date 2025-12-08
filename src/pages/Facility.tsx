@@ -15,7 +15,7 @@ export default function Facility() {
           Facility: Oppenheimer Family Equine Center
         </h1>
         <p className="text-lg text-gray-700 leading-relaxed">
-          The layout and design of a horse's facility is crucial for its health, safety, and well-being. Planning the layout, features, and potential areas to improve the facility promotes good management practices.
+          When designing your horse's facility, you must take health, safety, and well-being into account. Planning the layout, adding unique features, and identifying potential areas to improve at your horse's facility is a crucial management practice.
         </p>
       </div>
 
@@ -38,10 +38,10 @@ export default function Facility() {
               Areas for Improvement
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              The Oppenheimer Family Equine Facility is well maintained overall, but there are some areas in the center that could use attention to implement better management practices:
+              Billy's current boarding facility (Oppenheimer Family Equine Facility) is a well-maintained facility. However, the facility would benefit from a few improvements to maintain biosecurity and the health of the horses:
             </p>
             <ol className="list-decimal list-inside space-y-2 text-gray-700">
-              <li>Stall corners and floors are wearing down with lots of use and erosion. These areas need consistent cleaning and repair due to buildup of dirt, moss, and organic material.</li>
+              <li>The corners and floor in Billy's stall have discoloration, wear, and buildup of dirt, moss, and organic material. This area needs to be maintained more often by cleaning and repairing any weathered areas.</li>
               <li>Feed bins need maintenance and sanitation improvements. Visible signs of rust and wear are present.</li>
               <li>Water troughs need regular cleanings and upkeeping to make sure the water quality is good. </li>
             </ol>
