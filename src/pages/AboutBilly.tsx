@@ -239,17 +239,31 @@ The American Quarter Horse has become the largest breed association in the world
               </p>
             </div>
           </div>
-          <div className="mt-6">
-            <label className="block text-sm font-medium text-navy-blue mb-2">
-              <Link to="/citations#video-behavior-mod" className="text-navy-blue underline hover:text-forest-green transition-colors">Video 1</Link>: Behavior modification demonstration
-            </label>
-            <div className="aspect-video bg-gray-100 rounded-soft overflow-hidden">
-              <iframe
-                src="https://www.youtube.com/embed/JwoyxETo-t0?start=270"
-                className="w-full h-full"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
+          <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div className="aspect-video bg-gray-100 rounded-soft overflow-hidden">
+                <iframe
+                  src="https://www.youtube.com/embed/JwoyxETo-t0?start=270"
+                  className="w-full h-full"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+              <label className="block text-sm font-medium text-navy-blue mt-2 text-center">
+                Video 1: Behavior modification demonstration, using an object to pressure movement from horse. <sup><Link to="/citations#video-behavior-mod" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Video Source]</Link></sup>
+              </label>
+            </div>
+            <div> 
+              <HorseImage
+                src="./images/pressure-demonstration.jpg"
+                alt="Image 33: Example of flag stimulus to pressure forward movement"
+                title="Image 33: Demonstration of pressure and release training with flag"
+                aspectRatio="aspect-auto"
+                onClick={() => setLightboxImage('./images/pressure-demonstration.jpg')}
               />
+              <p className="text-sm text-gray-600 italic mt-2 text-center">
+                Image 33: Example of flag stimulus to pressure forward movement. <sup><Link to="/citations#pressure-demo-img" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Image Source]</Link></sup>
+              </p>
             </div>
           </div>
         </div>

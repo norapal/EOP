@@ -41,9 +41,9 @@ export default function Facility() {
               Billy's current boarding facility (Oppenheimer Family Equine Facility) is a well-maintained facility. However, the facility would benefit from a few improvements to maintain biosecurity and the health of the horses:
             </p>
             <ol className="list-decimal list-inside space-y-2 text-gray-700">
-              <li>The corners and floor in Billy's stall have discoloration, wear, and buildup of dirt, moss, and organic material. This area needs to be maintained more often by cleaning and repairing any weathered areas.</li>
-              <li>Feed bins need maintenance and sanitation improvements. Visible signs of rust and wear are present.</li>
-              <li>Water troughs need regular cleanings and upkeeping to make sure the water quality is good. </li>
+              <li>Images 7 and 8 shows the corners and floor in Billy's stall have discoloration, wear, and buildup of dirt, moss, and organic material. This area needs to be maintained more often by cleaning and repairing any weathered areas.</li>
+              <li>Image 9 shows the feed bins need maintenance and sanitation improvements. Visible signs of rust and wear are present.</li>
+              <li>Image 10 shows the water troughs need regular cleanings and upkeeping to make sure the water quality is good. </li>
             </ol>
           </div>
         </div>

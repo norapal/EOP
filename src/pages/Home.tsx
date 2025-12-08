@@ -23,7 +23,7 @@ export default function Home() {
             (Billy)
           </p>
           <p className="text-lg md:text-xl mt-4 text-shadow">
-            Equine Ownership Portfolio
+            Equine Ownership Portfolio - Nora Palinkas
           </p>
         </div>
       </div>

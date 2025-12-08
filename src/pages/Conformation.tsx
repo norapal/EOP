@@ -112,7 +112,7 @@ export default function Conformation() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
               <div>
                 <h3 className="font-semibold text-navy-blue mb-2">Head & Neck:</h3>
-                <p>The AQHA's guideline for neck topline to bottom line ratio is a long neck topline and a short neck bottom line. In Billy, his neck proportions are similar in length, which is a sign of poor formation. This imbalance in neck proportions is directly related to his steep shoulder angle <sup><Link to="/citations#aqha-balanced-horse" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[6]</Link></sup>.</p>
+                <p>The AQHA's guideline for neck topline to bottom line ratio is a long neck topline and a short neck bottom line (Image 21 shows this ideal ratio). In Billy, his neck proportions are similar in length, which is a sign of poor formation. This imbalance in neck proportions is directly related to his steep shoulder angle <sup><Link to="/citations#aqha-balanced-horse" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[6]</Link></sup>.</p>
               </div>
               <div className="bg-white rounded-soft p-4">
                 <HorseImage
@@ -131,7 +131,7 @@ export default function Conformation() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
               <div>
                 <h3 className="font-semibold text-navy-blue mb-2">Shoulder & Withers:</h3>
-                <p>Billy has a steep shoulder of approximately 60 degrees. According to the standards of the American Quarter Horse Association, the sloped shoulder is the foundation of the horse's balance. Billy's steep shoulder does not align with the AQHA guidelines, which recommend an ideal shoulder angle of 45-50 degrees. Billy's steep angle is more vertical than the sloped shoulder that is the AQHA's ideal. The guidelines state that a steep shoulder will result in a shortened neck, shortened topline, and lengthened bodyline <sup><Link to="/citations#aqha-balanced-horse" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[6]</Link></sup>.</p>
+                <p>Billy has a steep shoulder of approximately 60 degrees. According to the standards of the American Quarter Horse Association, the sloped shoulder is the foundation of the horse's balance. Billy's steep shoulder does not align with the AQHA guidelines, which recommend an ideal shoulder angle of 45-50 degrees which can be seen in image 20. Billy's steep angle is more vertical than the sloped shoulder that is the AQHA's ideal. The guidelines state that a steep shoulder will result in a shortened neck, shortened topline, and lengthened bodyline <sup><Link to="/citations#aqha-balanced-horse" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[6]</Link></sup>.</p>
               </div>
               <div className="bg-white rounded-soft p-4">
                 <HorseImage
@@ -150,7 +150,7 @@ export default function Conformation() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
               <div>
                 <h3 className="font-semibold text-navy-blue mb-2">Back & Loin:</h3>
-                <p>The AQHA's guideline for topline to bottom line ratio is a short topline to a long bottom line (1:2 ratio). Billy's ratio is 1:1.5, demonstrating that Billy's back is too long. His topline should be half the length of the bottom line, but it is closer to about 2/3 in length of the bottom line. Billy's ratio is not ideal, which is a clear indication of poor balance and a weaker back <sup><Link to="/citations#aqha-balanced-horse" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[6]</Link></sup>.</p>
+                <p>The AQHA's guideline for topline to bottom line ratio is a short topline to a long bottom line (1:2 ratio seen in image 22). Billy's ratio is 1:1.5, demonstrating that Billy's back is too long. His topline should be half the length of the bottom line, but it is closer to about 2/3 in length of the bottom line. Billy's ratio is not ideal, which is a clear indication of poor balance and a weaker back <sup><Link to="/citations#aqha-balanced-horse" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[6]</Link></sup>.</p>
               </div>
               <div className="bg-white rounded-soft p-4">
                 <HorseImage
@@ -169,7 +169,7 @@ export default function Conformation() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
               <div>
                 <h3 className="font-semibold text-navy-blue mb-2">Hindquarters:</h3>
-                <p>The American Quarter Horse Association's ideal hindquarter conformation is a square hindquarter with a long hip and a sloped croup. Billy's hip length is good, but he is cow-hocked and camped under. His legs are not properly positioned and this creates issues at the hock joint <sup><Link to="/citations#aqha-balanced-horse" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[6]</Link></sup>.</p>
+                <p>The American Quarter Horse Association's ideal hindquarter conformation is a square hindquarter with a long hip and a sloped croup as in image 23. Billy's hip length is good, but he is cow-hocked and camped under. His legs are not properly positioned and this creates issues at the hock joint <sup><Link to="/citations#aqha-balanced-horse" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[6]</Link></sup>.</p>
               </div>
               <div className="bg-white rounded-soft p-4">
                 <HorseImage
@@ -188,7 +188,7 @@ export default function Conformation() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
               <div>
                 <h3 className="font-semibold text-navy-blue mb-2">Legs & Feet:</h3>
-                <p>Billy's front limbs show to be splay-footed. This affects Billy's center line and can cause stress on his joints and hooves, showing that his limb conformations are not ideal and do not match the AQHA's conformation guidelines. The cow-hocked and camped under conformation on the hindlimbs puts too much weight on the hock joints <sup><Link to="/citations#aqha-balanced-horse" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[6]</Link></sup>.</p>
+                <p>Billy's front limbs show to be splay-footed. This affects Billy's center line and can cause stress on his joints and hooves, showing that his limb conformations are not ideal and do not match the AQHA's conformation guidelines which can be seen in image 24. The cow-hocked and camped under conformation on the hindlimbs puts too much weight on the hock joints <sup><Link to="/citations#aqha-balanced-horse" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[6]</Link></sup>.</p>
               </div>
               <div className="bg-white rounded-soft p-4 max-w-xs mx-auto">
                 <div className="max-h-[600px] overflow-hidden">
@@ -264,7 +264,7 @@ export default function Conformation() {
             </div>
             <div>
               <h3 className="font-semibold text-navy-blue mb-2">Areas of Concern:</h3>
-              <p>Billy's conformation that does not match the guidelines of the American Quarter Horse Association contributes to his functional limitations and chronic lameness. Billy's steep shoulder which does not have the ideal slope shortens his stride and stresses his forelimb structures. Billy's unideal topline to bottomline ratio affects Billy's weight distribution and quality of movement. In addition, Billy's splay-footed limb conformation on all of his limbs puts stress on his joints with each step. The cow-hocked and camped under conformation on the hindlimbs puts too much weight on the hock joints that causes lameness in the long run. Poor conformation and structure results in health issues in a horse <sup><Link to="/citations#aqha-balanced-horse" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[6]</Link></sup>.</p>
+              <p>Images 17, 18, and 19 demonstrate Billy's conformational faults that contribute to his functional limitations and chronic lameness. Billy's steep shoulder which does not have the ideal slope shortens his stride and stresses his forelimb structures. Billy's unideal topline to bottomline ratio affects Billy's weight distribution and quality of movement. In addition, Billy's splay-footed limb conformation on all of his limbs puts stress on his joints with each step. The cow-hocked and camped under conformation on the hindlimbs puts too much weight on the hock joints that causes lameness in the long run. Poor conformation and structure results in health issues in a horse <sup><Link to="/citations#aqha-balanced-horse" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[6]</Link></sup>.</p>
             </div>
             <div>
               <h3 className="font-semibold text-navy-blue mb-2">Connection to Performance:</h3>

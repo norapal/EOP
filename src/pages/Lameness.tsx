@@ -51,7 +51,7 @@ export default function Lameness() {
               Your browser does not support the video tag.
             </video>
             <p className="text-sm text-gray-600 mt-2 text-center">
-              Right forelimb lameness at trot showing head bobbing and shortened stride
+              Video 5: Right forelimb lameness at trot showing head bobbing and shortened stride
             </p>
             <p className="text-sm text-gray-600 italic mt-1 text-center">
               <sup><Link to="/citations#self-video-right-frontlimb-lameness" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Video Source]</Link></sup>
@@ -68,7 +68,7 @@ export default function Lameness() {
               Your browser does not support the video tag.
             </video>
             <p className="text-sm text-gray-600 mt-2 text-center">
-              Right hind limb lameness visible during movement
+              Video 6: Right hind limb lameness visible during movement
             </p>
             <p className="text-sm text-gray-600 italic mt-1 text-center">
               <sup><Link to="/citations#self-video-right-hindlimb-lameness" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Video Source]</Link></sup>
@@ -85,7 +85,7 @@ export default function Lameness() {
               Your browser does not support the video tag.
             </video>
             <p className="text-sm text-gray-600 mt-2 text-center">
-              Circling movement showing lameness more apparent in turns
+              Video 7: Circling movement showing lameness more apparent in turns
             </p>
             <p className="text-sm text-gray-600 italic mt-1 text-center">
               <sup><Link to="/citations#self-video-billy-circle" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Video Source]</Link></sup>
@@ -143,7 +143,7 @@ export default function Lameness() {
           </table>
         </div>
         <p className="mt-4 text-gray-700">
-          <span className="font-semibold text-navy-blue">Billy's Lameness Grade:</span> Billy scores a level 3 out of 5 on the AAEP lameness scale for his right forelimb and a 2 out of 5 for his right hind limb. His right forelimb lameness is consistently observed at the trot under all circumstances. His right hind limb lameness is subtle at the walk but is more noticeable when he goes uphill or downhill, and when circling in both directions <sup><Link to="/citations#aaep-lameness" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[10]</Link></sup>.
+          <span className="font-semibold text-navy-blue">Billy's Lameness Grade:</span> Billy scores a level 3 out of 5 on the AAEP lameness scale for his right forelimb and a 2 out of 5 for his right hind limb. His right forelimb lameness is consistently observed at the trot under all circumstances in video 5. His right hind limb lameness is subtle at the walk but is more noticeable when he goes uphill or downhill, and when circling in both directions in videos 6 and 7 <sup><Link to="/citations#aaep-lameness" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[10]</Link></sup>.
         </p>
       </div>
 

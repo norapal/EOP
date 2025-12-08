@@ -31,7 +31,7 @@ export default function Performance() {
               Your browser does not support the video tag.
             </video>
             <p className="text-sm text-gray-600 italic mt-2 text-center">
-              <sup><Link to="/citations#self-video-billy-walk" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Video Source]</Link></sup>
+              Video 2: <sup><Link to="/citations#self-video-billy-walk" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Video Source]</Link></sup>
             </p>
           </div>
           <div className="space-y-3 text-gray-700">
@@ -65,7 +65,7 @@ export default function Performance() {
               Your browser does not support the video tag.
             </video>
             <p className="text-sm text-gray-600 italic mt-2 text-center">
-              <sup><Link to="/citations#self-video-billy-trot" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Video Source]</Link></sup>
+              Video 3: <sup><Link to="/citations#self-video-billy-trot" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Video Source]</Link></sup>
             </p>
           </div>
           <div className="space-y-3 text-gray-700">
@@ -99,7 +99,7 @@ export default function Performance() {
               Your browser does not support the video tag.
             </video>
             <p className="text-sm text-gray-600 italic mt-2 text-center">
-              <sup><Link to="/citations#self-video-billy-canter" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Video Source]</Link></sup>
+              Video 4: <sup><Link to="/citations#self-video-billy-canter" className="text-navy-blue font-semibold underline hover:text-forest-green transition-colors">[Video Source]</Link></sup>
             </p>
           </div>
           <p className="text-gray-700 mb-3 italic">

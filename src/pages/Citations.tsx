@@ -471,6 +471,10 @@ export default function Citations() {
             <p className="font-semibold text-navy-blue mb-1">Image 32: Glycogen Branching Enzyme Deficiency (GBED) in Horses</p>
             <p className="text-sm text-gray-600">Source: <a href="https://equimed.com/news/health/gbed-a-cause-of-abortions-and-foal-deaths" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">https://equimed.com/news/health/gbed-a-cause-of-abortions-and-foal-deaths</a></p>
           </div>
+          <div id="pressure-demo-img" className="bg-white rounded-soft p-4 transition-all duration-300">
+            <p className="font-semibold text-navy-blue mb-1">Image 33: Flag Stimulus for Pressure and Release Training</p>
+            <p className="text-sm text-gray-600">Source: <a href="https://totalhorsemanship.co.uk/collections/horsemanship-flags-training-sticks?srsltid=AfmBOoqubEnj3UMoQkltyvG9ZjekmbuWJ1KMq4TXPz8QZ9mzvj6RlQHq" target="_blank" rel="noopener noreferrer" className="text-navy-blue underline hover:text-forest-green transition-colors">https://totalhorsemanship.co.uk/collections/horsemanship-flags-training-sticks</a></p>
+          </div>
         </div>
       </div>
     </Section>
